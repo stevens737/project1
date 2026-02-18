@@ -59,4 +59,60 @@ public class QueenBattleState {
         }
         return moves;
     }
+
+    public int evaluate(String role) {
+        // 1. Calculate empty squares first to check the global draw condition 
+        int emptySquares = 0;
+        for (int i = 1; i <= width; i++) {
+            for (int j = 1; j <= height; j++) {
+                if (board[i][j] == 0) emptySquares++;
+            }
+        }
+
+        // 2. Draw condition: W or fewer empty squares left 
+        if (emptySquares <= width) {
+            return 0; // Draw [cite: 47]
+        }
+
+        // 3. Check mobility for terminal states [cite: 18, 20]
+        List<int[]> whiteMoves = getLegalMoves("white");
+        List<int[]> blackMoves = getLegalMoves("black");
+        boolean whiteCanMove = !whiteMoves.isEmpty();
+        boolean blackCanMove = !blackMoves.isEmpty();
+
+        // If BOTH are unable to move, it's a draw [cite: 21]
+        if (!whiteCanMove && !blackCanMove) {
+            return 0; // Draw [cite: 47]
+        }
+        // If only white is stuck, white loses [cite: 20]
+        if (!whiteCanMove) {
+            return -100; // White lost [cite: 48]
+        }
+        // If only black is stuck, white wins [cite: 20]
+        if (!blackCanMove) {
+            return 100; // White won [cite: 46]
+        }
+
+        // 4. Heuristic for non-terminal states [cite: 49]
+        return countMoveableQueens("white") - countMoveableQueens("black");
+    }
+
+    private int countMoveableQueens(String role) {
+        int count = 0;
+        List<int[]> queens = role.equals("white") ? whiteQueens : blackQueens;
+        int[][] directions = {{0,1}, {0,-1}, {1,0}, {-1,0}, {1,1}, {1,-1}, {-1,1}, {-1,-1}};
+
+        for (int[] q : queens) {
+            for (int[] d : directions) {
+                int nx = q[0] + d[0];
+                int ny = q[1] + d[1];
+                // If there is at least one legal square to move to, the queen is moveable
+                if (nx >= 1 && nx <= width && ny >= 1 && ny <= height && board[nx][ny] == 0) {
+                    count++;
+                    break; 
+                }
+            }
+        }
+        return count;
+    }
 }
