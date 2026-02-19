@@ -115,4 +115,16 @@ public class QueenBattleState {
         }
         return count;
     }
+
+    public QueenBattleState clone() {
+        int[][] newWhitePos = new int[whiteQueens.size()][2];
+        for (int i = 0; i < whiteQueens.size(); i++) newWhitePos[i] = whiteQueens.get(i).clone();
+        
+        int[][] newBlackPos = new int[blackQueens.size()][2];
+        for (int i = 0; i < blackQueens.size(); i++) newBlackPos[i] = blackQueens.get(i).clone();
+        
+        QueenBattleState copy = new QueenBattleState(width, height, newWhitePos, newBlackPos);
+        for (int i = 0; i <= width; i++) copy.board[i] = board[i].clone();
+        return copy;
+    }
 }
