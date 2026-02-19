@@ -1,3 +1,4 @@
+
 import java.util.List;
 
 public class AlphaBetaAgent implements Agent {
@@ -23,7 +24,6 @@ public class AlphaBetaAgent implements Agent {
             state.applyMove(lastMove[0], lastMove[1], lastMove[2], lastMove[3], oppRole);
         }
 
-        myTurn = !myTurn;
         if (myTurn) {
             startTime = System.currentTimeMillis();
             timeLimitMillis = (playclock * 1000) - 300; // Give a small buffer on the runtime
@@ -40,10 +40,12 @@ public class AlphaBetaAgent implements Agent {
 
             if (bestMoveFound != null) {
                 state.applyMove(bestMoveFound[0], bestMoveFound[1], bestMoveFound[2], bestMoveFound[3], this.role);
+                myTurn = !myTurn;
                 return "(play " + bestMoveFound[0] + " " + bestMoveFound[1] + " " + bestMoveFound[2] + " " + bestMoveFound[3] + ")";
             }
         }
         
+        myTurn = !myTurn;
         return "noop";
     }
     
@@ -72,14 +74,15 @@ public class AlphaBetaAgent implements Agent {
 
     private int alphaBetaNegamax(QueenBattleState s, int depth, int alpha, int beta, boolean isMyTurn){
         checkTime();
-        int terminalScore = s.evaluate(this.role);
-        // Return score relative to the player whose turn it is
+        String currentRole = isMyTurn ? this.role : (this.role.equals("white") ? "black" : "white");
+        int terminalScore = s.evaluate(currentRole);
+        
+        // Return score from the perspective of the current player to move
         if (depth <= 0 || Math.abs(terminalScore) == 100 || terminalScore == 0) {
-            return isMyTurn ? terminalScore : -terminalScore;
+            return terminalScore;
         }
 
         int bestValue = Integer.MIN_VALUE + 1;
-        String currentRole = isMyTurn ? this.role : (this.role.equals("white") ? "black" : "white");
         
         for (int[] move : s.getLegalMoves(currentRole)) {
             QueenBattleState next = s.clone();

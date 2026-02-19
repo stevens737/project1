@@ -86,15 +86,22 @@ public class QueenBattleState {
         }
         // If only white is stuck, white loses [cite: 20]
         if (!whiteCanMove) {
-            return -100; // White lost [cite: 48]
+            return role.equals("white") ? -100 : 100; // Loss for the given role
         }
         // If only black is stuck, white wins [cite: 20]
         if (!blackCanMove) {
-            return 100; // White won [cite: 46]
+            return role.equals("white") ? 100 : -100; // Win for white, loss for black
         }
 
         // 4. Heuristic for non-terminal states [cite: 49]
-        return countMoveableQueens("white") - countMoveableQueens("black");
+        // Return mobility advantage from the perspective of the given role
+        int whiteQuality = countMoveableQueens("white");
+        int blackQuality = countMoveableQueens("black");
+        if (role.equals("white")) {
+            return whiteQuality - blackQuality;
+        } else {
+            return blackQuality - whiteQuality;
+        }
     }
 
     private int countMoveableQueens(String role) {
