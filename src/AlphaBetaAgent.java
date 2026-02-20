@@ -1,110 +1,144 @@
-
-import java.util.List;
+import java.util.*;
+import java.io.*;
 
 public class AlphaBetaAgent implements Agent {
     private String role;
     private int playclock;
-    private boolean myTurn;
     private QueenBattleState state;
-    private long startTime;
-    private long timeLimitMillis;
+    private long startTime, timeLimit;
+    private int nodes;
+    
+    private static class Entry { int val, depth; }
+    private Map<Long, Entry> tt = new HashMap<>();
+    private PrintWriter logWriter;
 
     private static class TimeoutException extends RuntimeException {}
 
-    public void init(String role, int width, int height, int playclock, int[][] white_positions, int[][] black_positions) {
+    public void init(String role, int width, int height, int playclock, int[][] whitePos, int[][] blackPos) {
         this.role = role;
         this.playclock = playclock;
-        this.myTurn = role.equals("white");
-        this.state = new QueenBattleState(width, height, white_positions, black_positions);
+        this.state = new QueenBattleState(width, height, whitePos, blackPos);
+        try {
+            // FIX: true for append mode, and we flush manually in logToFile
+            File logFile = new File("src/agent_log.txt");
+            logWriter = new PrintWriter(new BufferedWriter(new FileWriter(logFile, true)));
+            logToFile("--- INIT: " + role + " " + new Date().toString() + " ---");
+        } catch (IOException e) {
+            System.err.println("CRITICAL: Could not open log file in src/agent_log.txt");
+        }
     }
 
     public String nextAction(int[] lastMove) {
-        if (lastMove != null) {
-            String oppRole = role.equals("white") ? "black" : "white";
-            state.applyMove(lastMove[0], lastMove[1], lastMove[2], lastMove[3], oppRole);
+        if (lastMove != null && lastMove.length >= 4) {
+            String lastMover = role.equals("white") ? "black" : "white";
+            state.applyMove(lastMove[0], lastMove[1], lastMove[2], lastMove[3], lastMover);
         }
 
-        if (myTurn) {
-            startTime = System.currentTimeMillis();
-            timeLimitMillis = (playclock * 1000) - 300; // Give a small buffer on the runtime
+        startTime = System.currentTimeMillis();
+        timeLimit = (playclock * 1000) - 500; 
+        int[] best = null;
+        int depth = 1;
+        tt.clear(); 
 
-            int[] bestMoveFound = null;
-            int depth = 1;
-
-            try {
-                while (true) {
-                    bestMoveFound = startNegamax(state, depth);
-                    depth++;
+        try {
+            while (depth < 50) {
+                nodes = 0;
+                int[] currentBest = startNegamax(state, depth);
+                
+                // SAFETY EXIT: If no new nodes are found, the tree is solved or fully cached
+                if (nodes == 0 && depth > 1) {
+                    logToFile("Search complete: No new nodes found at Depth " + depth);
+                    break; 
                 }
-            } catch (TimeoutException e) {}
-
-            if (bestMoveFound != null) {
-                state.applyMove(bestMoveFound[0], bestMoveFound[1], bestMoveFound[2], bestMoveFound[3], this.role);
-                myTurn = !myTurn;
-                return "(play " + bestMoveFound[0] + " " + bestMoveFound[1] + " " + bestMoveFound[2] + " " + bestMoveFound[3] + ")";
+                
+                if (currentBest != null) best = currentBest;
+                
+                long elapsed = Math.max(1, System.currentTimeMillis() - startTime);
+                logToFile("Depth " + depth + " | NPS: " + (nodes * 1000 / elapsed) + " | Nodes: " + nodes);
+                depth++;
             }
+        } catch (TimeoutException e) {
+            logToFile("Timeout reached at depth " + (depth - 1));
         }
-        
-        myTurn = !myTurn;
+
+        if (best != null) {
+            state.applyMove(best[0], best[1], best[2], best[3], this.role);
+            String action = "(play " + best[0] + " " + best[1] + " " + best[2] + " " + best[3] + ")";
+            logToFile("Returning: " + action);
+            return action;
+        }
         return "noop";
     }
-    
 
-    private int[] startNegamax(QueenBattleState s, int maxDepth) {
-        List<int[]> moves = s.getLegalMoves(this.role);
-        int[] bestMove = moves.get(0); // Default to first legal move
-        int alpha = Integer.MIN_VALUE + 1;
-        int beta = Integer.MAX_VALUE - 1;
-        int bestValue = Integer.MIN_VALUE + 1;
+    private int[] startNegamax(QueenBattleState s, int depth) {
+        List<int[]> moves = s.getLegalMoves(role);
+        if (moves.isEmpty()) return null;
+        
+        moves.sort((a, b) -> {
+            int scoreA = s.quickEvaluateMove(a, role);
+            int scoreB = s.quickEvaluateMove(b, role);
+            return Integer.compare(scoreB, scoreA);
+        });
 
-        for (int[] move : moves) {
+        int[] bestMove = moves.get(0);
+        int alpha = -10000, beta = 10000, bestV = -10000;
+
+        for (int[] m : moves) {
             checkTime();
-            QueenBattleState nextState = s.clone();
-            nextState.applyMove(move[0], move[1], move[2], move[3], this.role);
-
-            int val = -alphaBetaNegamax(nextState, maxDepth - 1, -beta, -alpha, false);
-            if (val > bestValue) {
-                bestValue = val;
-                bestMove = move;
-            }
-            alpha = Math.max(alpha, bestValue);
+            s.applyMove(m[0], m[1], m[2], m[3], role);
+            int v = -negamax(s, depth - 1, -beta, -alpha, false);
+            s.retractMove(m[0], m[1], m[2], m[3], role);
+            if (v > bestV) { bestV = v; bestMove = m; }
+            alpha = Math.max(alpha, bestV);
         }
         return bestMove;
     }
 
-    private int alphaBetaNegamax(QueenBattleState s, int depth, int alpha, int beta, boolean isMyTurn){
-        checkTime();
-        String currentRole = isMyTurn ? this.role : (this.role.equals("white") ? "black" : "white");
-        int terminalScore = s.evaluate(currentRole);
+    private int negamax(QueenBattleState s, int depth, int alpha, int beta, boolean isMe) {
+        nodes++;
+        if (nodes % 1000 == 0) checkTime();
+
+        int score = s.evaluate(role);
+        if (Math.abs(score) == 100 || score == 0) return isMe ? score : -score;
+        if (depth <= 0) return isMe ? score : -score;
+
+        long hash = s.getHash();
+        Entry e = tt.get(hash);
+        if (e != null && e.depth >= depth) return e.val;
+
+        int bestV = -10000;
+        String cur = isMe ? role : (role.equals("white") ? "black" : "white");
+        List<int[]> moves = s.getLegalMoves(cur);
         
-        // Return score from the perspective of the current player to move
-        if (depth <= 0 || Math.abs(terminalScore) == 100 || terminalScore == 0) {
-            return terminalScore;
+        for (int[] m : moves) {
+            s.applyMove(m[0], m[1], m[2], m[3], cur);
+            int v = -negamax(s, depth - 1, -beta, -alpha, !isMe);
+            s.retractMove(m[0], m[1], m[2], m[3], cur);
+            bestV = Math.max(v, bestV);
+            alpha = Math.max(alpha, bestV);
+            if (alpha >= beta) break;
         }
 
-        int bestValue = Integer.MIN_VALUE + 1;
-        
-        for (int[] move : s.getLegalMoves(currentRole)) {
-            QueenBattleState next = s.clone();
-            next.applyMove(move[0], move[1], move[2], move[3], currentRole);
-            
-            int value = -alphaBetaNegamax(next, depth - 1, -beta, -alpha, !isMyTurn);
-            
-            bestValue = Math.max(value, bestValue);
-            if (bestValue > alpha) {
-                alpha = bestValue;
-                if (alpha >= beta) break; // Beta cutoff [image_7cf49e.png]
-            }
-        }
-        return bestValue;
+        Entry newE = new Entry(); newE.val = bestV; newE.depth = depth;
+        tt.put(hash, newE);
+        return bestV;
     }
 
     private void checkTime() {
-        if (System.currentTimeMillis() - startTime >= timeLimitMillis) 
-            throw new TimeoutException();
+        if (System.currentTimeMillis() - startTime >= timeLimit) throw new TimeoutException();
     }
 
-    public void cleanup() { 
-        state = null; 
+    private void logToFile(String msg) {
+        System.out.println(msg); // Print to console
+        if (logWriter != null) {
+            logWriter.println(msg); // Print to file
+            logWriter.flush();      // FORCE WRITING TO DISK
+        }
+    }
+    
+    public void cleanup() {
+        logToFile("--- CLEANUP: Game Ended ---");
+        if (logWriter != null) logWriter.close();
+        tt.clear();
     }
 }
