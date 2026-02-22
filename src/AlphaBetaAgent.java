@@ -4,10 +4,10 @@ import java.io.*;
 public class AlphaBetaAgent implements Agent {
     private String role;
     private int playclock;
-    private QueenBattleState state;
+    private QueenBattleState state; // The PRISTINE official board
     private long startTime, timeLimit;
     private int nodes;
-    
+
     private static class Entry { int val, depth; }
     private Map<Long, Entry> tt = new HashMap<>();
     private PrintWriter logWriter;
@@ -19,38 +19,50 @@ public class AlphaBetaAgent implements Agent {
         this.playclock = playclock;
         this.state = new QueenBattleState(width, height, whitePos, blackPos);
         try {
-            // FIX: true for append mode, and we flush manually in logToFile
-            File logFile = new File("src/agent_log.txt");
-            logWriter = new PrintWriter(new BufferedWriter(new FileWriter(logFile, true)));
-            logToFile("--- INIT: " + role + " " + new Date().toString() + " ---");
-        } catch (IOException e) {
-            System.err.println("CRITICAL: Could not open log file in src/agent_log.txt");
-        }
+            logWriter = new PrintWriter(new BufferedWriter(new FileWriter("src/agent_log.txt", true)));
+            logToFile("\n--- TOURNAMENT MATCH START: " + role + " (" + width + "x" + height + ") ---");
+        } catch (IOException e) { }
     }
 
     public String nextAction(int[] lastMove) {
-        if (lastMove != null && lastMove.length >= 4) {
-            String lastMover = role.equals("white") ? "black" : "white";
-            state.applyMove(lastMove[0], lastMove[1], lastMove[2], lastMove[3], lastMover);
+        // 1. STATE-BASED AUTO-SYNC
+        // We don't guess if this is an echo. We look at the physical board.
+        // If the piece is still at the source, we need to apply the move.
+        if (lastMove != null && lastMove.length >= 4 && lastMove[0] != -1) {
+            int sx = lastMove[0], sy = lastMove[1];
+            int pieceAtSource = state.board[sx][sy];
+            
+            if (pieceAtSource == 1) {
+                state.applyMove(lastMove[0], lastMove[1], lastMove[2], lastMove[3], "white");
+            } else if (pieceAtSource == 2) {
+                state.applyMove(lastMove[0], lastMove[1], lastMove[2], lastMove[3], "black");
+            }
         }
 
+        // 2. TRUE PARITY CHECK
+        // Every valid move burns exactly 1 square.
+        // 0 burns = White's turn. 1 burn = Black's turn. 2 burns = White's turn.
+        int burnedCount = state.getBurnedCount();
+        boolean isWhiteTurn = (burnedCount % 2 == 0);
+        boolean myTurn = (role.equals("white") && isWhiteTurn) || (role.equals("black") && !isWhiteTurn);
+
+        if (!myTurn) {
+            return "noop";
+        }
+
+        // 3. SAFE SEARCH ON A CLONE
+        QueenBattleState searchState = state.cloneState();
         startTime = System.currentTimeMillis();
-        timeLimit = (playclock * 1000) - 500; 
+        timeLimit = (playclock * 1000) - 1500; // Strict 1.5s buffer for heavy BFS
         int[] best = null;
         int depth = 1;
-        tt.clear(); 
+        tt.clear();
 
         try {
             while (depth < 50) {
                 nodes = 0;
-                int[] currentBest = startNegamax(state, depth);
-                
-                // SAFETY EXIT: If no new nodes are found, the tree is solved or fully cached
-                if (nodes == 0 && depth > 1) {
-                    logToFile("Search complete: No new nodes found at Depth " + depth);
-                    break; 
-                }
-                
+                int[] currentBest = startNegamax(searchState, depth);
+                if (nodes == 0 && depth > 1) break;
                 if (currentBest != null) best = currentBest;
                 
                 long elapsed = Math.max(1, System.currentTimeMillis() - startTime);
@@ -58,15 +70,17 @@ public class AlphaBetaAgent implements Agent {
                 depth++;
             }
         } catch (TimeoutException e) {
-            logToFile("Timeout reached at depth " + (depth - 1));
+            logToFile("Timeout caught at Depth " + depth + ". Corrupted search board discarded.");
         }
 
         if (best != null) {
+            // Apply the safely found move to our PRISTINE official board
             state.applyMove(best[0], best[1], best[2], best[3], this.role);
-            String action = "(play " + best[0] + " " + best[1] + " " + best[2] + " " + best[3] + ")";
-            logToFile("Returning: " + action);
-            return action;
+            String moveMsg = "(play " + best[0] + " " + best[1] + " " + best[2] + " " + best[3] + ")";
+            logToFile("Playing: " + moveMsg);
+            return moveMsg;
         }
+        
         return "noop";
     }
 
@@ -74,14 +88,10 @@ public class AlphaBetaAgent implements Agent {
         List<int[]> moves = s.getLegalMoves(role);
         if (moves.isEmpty()) return null;
         
-        moves.sort((a, b) -> {
-            int scoreA = s.quickEvaluateMove(a, role);
-            int scoreB = s.quickEvaluateMove(b, role);
-            return Integer.compare(scoreB, scoreA);
-        });
+        moves.sort((a, b) -> Integer.compare(s.quickEvaluateMove(b), s.quickEvaluateMove(a)));
 
         int[] bestMove = moves.get(0);
-        int alpha = -10000, beta = 10000, bestV = -10000;
+        int alpha = -30000, beta = 30000, bestV = -30000;
 
         for (int[] m : moves) {
             checkTime();
@@ -96,20 +106,20 @@ public class AlphaBetaAgent implements Agent {
 
     private int negamax(QueenBattleState s, int depth, int alpha, int beta, boolean isMe) {
         nodes++;
-        if (nodes % 1000 == 0) checkTime();
+        if (nodes % 100 == 0) checkTime();
 
         int score = s.evaluate(role);
-        if (Math.abs(score) == 100 || score == 0) return isMe ? score : -score;
-        if (depth <= 0) return isMe ? score : -score;
+        if (Math.abs(score) >= 10000 || depth <= 0) return isMe ? score : -score;
 
         long hash = s.getHash();
         Entry e = tt.get(hash);
         if (e != null && e.depth >= depth) return e.val;
 
-        int bestV = -10000;
+        int bestV = -30000;
         String cur = isMe ? role : (role.equals("white") ? "black" : "white");
         List<int[]> moves = s.getLegalMoves(cur);
-        
+        if (moves.isEmpty()) return isMe ? -10000 : 10000;
+
         for (int[] m : moves) {
             s.applyMove(m[0], m[1], m[2], m[3], cur);
             int v = -negamax(s, depth - 1, -beta, -alpha, !isMe);
@@ -124,21 +134,7 @@ public class AlphaBetaAgent implements Agent {
         return bestV;
     }
 
-    private void checkTime() {
-        if (System.currentTimeMillis() - startTime >= timeLimit) throw new TimeoutException();
-    }
-
-    private void logToFile(String msg) {
-        System.out.println(msg); // Print to console
-        if (logWriter != null) {
-            logWriter.println(msg); // Print to file
-            logWriter.flush();      // FORCE WRITING TO DISK
-        }
-    }
-    
-    public void cleanup() {
-        logToFile("--- CLEANUP: Game Ended ---");
-        if (logWriter != null) logWriter.close();
-        tt.clear();
-    }
+    private void checkTime() { if (System.currentTimeMillis() - startTime >= timeLimit) throw new TimeoutException(); }
+    private void logToFile(String msg) { if (logWriter != null) { logWriter.println(msg); logWriter.flush(); } }
+    public void cleanup() { if (logWriter != null) logWriter.close(); tt.clear(); state = null; }
 }
