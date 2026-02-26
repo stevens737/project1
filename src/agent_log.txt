@@ -1,0 +1,3023 @@
+
+--- TOURNAMENT MATCH START: white (10x10) ---
+Depth 1 | NPS: 20000 | Nodes: 80
+Depth 2 | NPS: 31938 | Nodes: 1565
+Depth 3 | NPS: 34959 | Nodes: 76386
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 4 1 4 8)
+Depth 1 | NPS: 26666 | Nodes: 80
+Depth 2 | NPS: 32060 | Nodes: 1058
+Depth 3 | NPS: 35994 | Nodes: 39414
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 10 4 7 7)
+Depth 1 | NPS: 17750 | Nodes: 71
+Depth 2 | NPS: 28615 | Nodes: 744
+Depth 3 | NPS: 37486 | Nodes: 22979
+Depth 4 | NPS: 34697 | Nodes: 191948
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 1 4 3 4)
+Depth 1 | NPS: 16600 | Nodes: 83
+Depth 2 | NPS: 24956 | Nodes: 574
+Depth 3 | NPS: 39582 | Nodes: 17535
+Depth 4 | NPS: 37441 | Nodes: 198737
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 1 8 2)
+Depth 1 | NPS: 22000 | Nodes: 88
+Depth 2 | NPS: 32916 | Nodes: 790
+Depth 3 | NPS: 43476 | Nodes: 19260
+Depth 4 | NPS: 43487 | Nodes: 248485
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 7 7 6)
+Depth 1 | NPS: 17600 | Nodes: 88
+Depth 2 | NPS: 32578 | Nodes: 1238
+Depth 3 | NPS: 44310 | Nodes: 27871
+Depth 4 | NPS: 42949 | Nodes: 237211
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 8 3 8)
+Depth 1 | NPS: 19000 | Nodes: 76
+Depth 2 | NPS: 40800 | Nodes: 816
+Depth 3 | NPS: 47637 | Nodes: 17483
+Depth 4 | NPS: 44222 | Nodes: 125282
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 3 4 3 3)
+Depth 1 | NPS: 22000 | Nodes: 66
+Depth 2 | NPS: 42875 | Nodes: 686
+Depth 3 | NPS: 52318 | Nodes: 17736
+Depth 4 | NPS: 50165 | Nodes: 139711
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 6 8 5)
+Depth 1 | NPS: 17333 | Nodes: 52
+Depth 2 | NPS: 46791 | Nodes: 1123
+Depth 3 | NPS: 55452 | Nodes: 18743
+Depth 4 | NPS: 55532 | Nodes: 245066
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 8 5 8 9)
+Depth 1 | NPS: 18666 | Nodes: 56
+Depth 2 | NPS: 47384 | Nodes: 616
+Depth 3 | NPS: 51521 | Nodes: 13035
+Depth 4 | NPS: 62114 | Nodes: 356288
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 3 8 2 7)
+Depth 1 | NPS: 13750 | Nodes: 55
+Depth 2 | NPS: 42218 | Nodes: 1351
+Depth 3 | NPS: 67107 | Nodes: 26776
+Depth 4 | NPS: 69732 | Nodes: 355844
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 8 2 8 3)
+Depth 1 | NPS: 22500 | Nodes: 45
+Depth 2 | NPS: 53500 | Nodes: 428
+Depth 3 | NPS: 75236 | Nodes: 15574
+Depth 4 | NPS: 74552 | Nodes: 144035
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 8 9 8 8)
+Depth 1 | NPS: 14333 | Nodes: 43
+Depth 2 | NPS: 56700 | Nodes: 567
+Depth 3 | NPS: 77401 | Nodes: 8282
+Depth 4 | NPS: 83378 | Nodes: 101388
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 8 8 9 9)
+Depth 1 | NPS: 23500 | Nodes: 47
+Depth 2 | NPS: 69769 | Nodes: 907
+Depth 3 | NPS: 72880 | Nodes: 7288
+Depth 4 | NPS: 69892 | Nodes: 41796
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 2 7 2 8)
+Depth 1 | NPS: 13333 | Nodes: 40
+Depth 2 | NPS: 62428 | Nodes: 437
+Depth 3 | NPS: 76813 | Nodes: 4532
+Depth 4 | NPS: 86346 | Nodes: 34625
+Depth 5 | NPS: 94210 | Nodes: 338874
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 2 8 3 9)
+Depth 1 | NPS: 13333 | Nodes: 40
+Depth 2 | NPS: 67555 | Nodes: 608
+Depth 3 | NPS: 96598 | Nodes: 10819
+Depth 4 | NPS: 97261 | Nodes: 90842
+Depth 5 | NPS: 97044 | Nodes: 750251
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 3 9 4 9)
+Depth 1 | NPS: 19500 | Nodes: 39
+Depth 2 | NPS: 78222 | Nodes: 704
+Depth 3 | NPS: 97500 | Nodes: 7410
+Depth 4 | NPS: 107212 | Nodes: 121257
+Depth 5 | NPS: 95059 | Nodes: 543553
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 8 3 7 3)
+Depth 1 | NPS: 10666 | Nodes: 32
+Depth 2 | NPS: 53777 | Nodes: 484
+Depth 3 | NPS: 90285 | Nodes: 7584
+Depth 4 | NPS: 103110 | Nodes: 60526
+Depth 5 | NPS: 100694 | Nodes: 372971
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 9 9 9 1)
+Depth 1 | NPS: 14500 | Nodes: 29
+Depth 2 | NPS: 73714 | Nodes: 516
+Depth 3 | NPS: 108280 | Nodes: 6172
+Depth 4 | NPS: 108439 | Nodes: 27652
+Depth 5 | NPS: 126251 | Nodes: 211597
+Depth 6 | NPS: 134552 | Nodes: 1189447
+Timeout caught at Depth 7. Corrupted search board discarded.
+Playing: (play 3 3 3 2)
+Depth 1 | NPS: 10500 | Nodes: 21
+Depth 2 | NPS: 44666 | Nodes: 134
+Depth 3 | NPS: 99500 | Nodes: 995
+Depth 4 | NPS: 136276 | Nodes: 6405
+Depth 5 | NPS: 142649 | Nodes: 35377
+Depth 6 | NPS: 154543 | Nodes: 226252
+Depth 7 | NPS: 156606 | Nodes: 1341333
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 3 2 2 3)
+Depth 1 | NPS: 10000 | Nodes: 20
+Depth 2 | NPS: 58666 | Nodes: 176
+Depth 3 | NPS: 112800 | Nodes: 1128
+Depth 4 | NPS: 136088 | Nodes: 6124
+Depth 5 | NPS: 155244 | Nodes: 40053
+Depth 6 | NPS: 160865 | Nodes: 222477
+Depth 7 | NPS: 155430 | Nodes: 1064852
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 4 9 6 7)
+Depth 1 | NPS: 9000 | Nodes: 18
+Depth 2 | NPS: 47500 | Nodes: 95
+Depth 3 | NPS: 143818 | Nodes: 1582
+Depth 4 | NPS: 136775 | Nodes: 6702
+Depth 5 | NPS: 165987 | Nodes: 52784
+Depth 6 | NPS: 154468 | Nodes: 165436
+Depth 7 | NPS: 171004 | Nodes: 840147
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 2 3 2 6)
+Depth 1 | NPS: 6000 | Nodes: 18
+Depth 2 | NPS: 32333 | Nodes: 97
+Depth 3 | NPS: 128000 | Nodes: 1408
+Depth 4 | NPS: 109900 | Nodes: 3297
+Depth 5 | NPS: 158103 | Nodes: 25929
+Depth 6 | NPS: 125033 | Nodes: 51764
+Depth 7 | NPS: 176688 | Nodes: 406737
+Depth 8 | NPS: 126859 | Nodes: 691638
+Timeout caught at Depth 9. Corrupted search board discarded.
+Playing: (play 2 6 2 5)
+Depth 1 | NPS: 8000 | Nodes: 16
+Depth 2 | NPS: 33000 | Nodes: 99
+Depth 3 | NPS: 135900 | Nodes: 1359
+Depth 4 | NPS: 97304 | Nodes: 2238
+Depth 5 | NPS: 178514 | Nodes: 24992
+Depth 6 | NPS: 130488 | Nodes: 45671
+Depth 7 | NPS: 131799 | Nodes: 243433
+Depth 8 | NPS: 79449 | Nodes: 372457
+Timeout caught at Depth 9. Corrupted search board discarded.
+Playing: (play 6 7 6 6)
+Depth 1 | NPS: 4000 | Nodes: 16
+Depth 2 | NPS: 21666 | Nodes: 130
+Depth 3 | NPS: 55500 | Nodes: 666
+Depth 4 | NPS: 89194 | Nodes: 3211
+Depth 5 | NPS: 110205 | Nodes: 14988
+Depth 6 | NPS: 108675 | Nodes: 49230
+Depth 7 | NPS: 156141 | Nodes: 170506
+Depth 8 | NPS: 130938 | Nodes: 320275
+Depth 9 | NPS: 167280 | Nodes: 962698
+Timeout caught at Depth 10. Corrupted search board discarded.
+Playing: (play 2 5 2 4)
+Depth 1 | NPS: 14000 | Nodes: 14
+Depth 2 | NPS: 56500 | Nodes: 113
+Depth 3 | NPS: 180500 | Nodes: 722
+Depth 4 | NPS: 173777 | Nodes: 1564
+Depth 5 | NPS: 191035 | Nodes: 5349
+Depth 6 | NPS: 145372 | Nodes: 7414
+Depth 7 | NPS: 185596 | Nodes: 23014
+Depth 8 | NPS: 163311 | Nodes: 39848
+Depth 9 | NPS: 222523 | Nodes: 168228
+Depth 10 | NPS: 158971 | Nodes: 220493
+Depth 11 | NPS: 219668 | Nodes: 881312
+Depth 12 | NPS: 159154 | Nodes: 1122516
+Timeout caught at Depth 13. Corrupted search board discarded.
+Playing: (play 6 6 5 7)
+Depth 1 | NPS: 7000 | Nodes: 14
+Depth 2 | NPS: 28000 | Nodes: 56
+Depth 3 | NPS: 90250 | Nodes: 361
+Depth 4 | NPS: 114000 | Nodes: 684
+Depth 5 | NPS: 149125 | Nodes: 2386
+Depth 6 | NPS: 135944 | Nodes: 4894
+Depth 7 | NPS: 151462 | Nodes: 12117
+Depth 8 | NPS: 151791 | Nodes: 25501
+Depth 9 | NPS: 212868 | Nodes: 95791
+Depth 10 | NPS: 176975 | Nodes: 162994
+Depth 11 | NPS: 198366 | Nodes: 416966
+Depth 12 | NPS: 157608 | Nodes: 636582
+Depth 13 | NPS: 184150 | Nodes: 1549992
+Timeout caught at Depth 14. Corrupted search board discarded.
+Playing: (play 2 4 1 5)
+Depth 1 | NPS: 7000 | Nodes: 14
+Depth 2 | NPS: 25000 | Nodes: 50
+Depth 3 | NPS: 80666 | Nodes: 242
+Depth 4 | NPS: 126000 | Nodes: 630
+Depth 5 | NPS: 160916 | Nodes: 1931
+Depth 6 | NPS: 189242 | Nodes: 6245
+Depth 7 | NPS: 226018 | Nodes: 24862
+Depth 8 | NPS: 193114 | Nodes: 47313
+Depth 9 | NPS: 200386 | Nodes: 129450
+Depth 10 | NPS: 175657 | Nodes: 230463
+Depth 11 | NPS: 208114 | Nodes: 629963
+Depth 12 | NPS: 181823 | Nodes: 1147489
+Timeout caught at Depth 13. Corrupted search board discarded.
+Playing: (play 5 7 5 9)
+Depth 1 | NPS: 5000 | Nodes: 15
+Depth 2 | NPS: 21000 | Nodes: 63
+Depth 3 | NPS: 69750 | Nodes: 279
+Depth 4 | NPS: 181125 | Nodes: 1449
+Depth 5 | NPS: 225760 | Nodes: 5644
+Depth 6 | NPS: 180543 | Nodes: 10291
+Depth 7 | NPS: 222482 | Nodes: 32260
+Depth 8 | NPS: 187784 | Nodes: 61030
+Depth 9 | NPS: 203244 | Nodes: 150604
+Depth 10 | NPS: 190731 | Nodes: 308413
+Depth 11 | NPS: 219328 | Nodes: 849680
+Depth 12 | NPS: 187621 | Nodes: 1477895
+Timeout caught at Depth 13. Corrupted search board discarded.
+Playing: (play 9 1 8 1)
+Depth 1 | NPS: 3500 | Nodes: 7
+Depth 2 | NPS: 23500 | Nodes: 47
+Depth 3 | NPS: 100000 | Nodes: 200
+Depth 4 | NPS: 163250 | Nodes: 653
+Depth 5 | NPS: 207000 | Nodes: 2277
+Depth 6 | NPS: 219000 | Nodes: 5694
+Depth 7 | NPS: 223985 | Nodes: 15903
+Depth 8 | NPS: 209574 | Nodes: 34999
+Depth 9 | NPS: 220959 | Nodes: 87942
+Depth 10 | NPS: 195753 | Nodes: 163063
+Depth 11 | NPS: 182846 | Nodes: 299320
+Depth 12 | NPS: 169992 | Nodes: 495189
+Depth 13 | NPS: 181977 | Nodes: 983404
+Depth 14 | NPS: 129820 | Nodes: 1059333
+Timeout caught at Depth 15. Corrupted search board discarded.
+Playing: (play 5 9 5 8)
+Depth 1 | NPS: 2000 | Nodes: 4
+Depth 2 | NPS: 19000 | Nodes: 38
+Depth 3 | NPS: 35333 | Nodes: 106
+Depth 4 | NPS: 102750 | Nodes: 411
+Depth 5 | NPS: 138166 | Nodes: 829
+Depth 6 | NPS: 188000 | Nodes: 2444
+Depth 7 | NPS: 204363 | Nodes: 6744
+Depth 8 | NPS: 205626 | Nodes: 15422
+Depth 9 | NPS: 224418 | Nodes: 40171
+Depth 10 | NPS: 209013 | Nodes: 78589
+Depth 11 | NPS: 207909 | Nodes: 160506
+Depth 12 | NPS: 179381 | Nodes: 246649
+Depth 13 | NPS: 144123 | Nodes: 306551
+Depth 14 | NPS: 137031 | Nodes: 430690
+Depth 15 | NPS: 136127 | Nodes: 610530
+Depth 16 | NPS: 108910 | Nodes: 634622
+Depth 17 | NPS: 110268 | Nodes: 840797
+Depth 18 | NPS: 30619 | Nodes: 248510
+Depth 19 | NPS: 28862 | Nodes: 248510
+Depth 20 | NPS: 27225 | Nodes: 248510
+Timeout caught at Depth 21. Corrupted search board discarded.
+Playing: (play 1 5 1 6)
+Depth 1 | NPS: 1500 | Nodes: 3
+Depth 2 | NPS: 11000 | Nodes: 22
+Depth 3 | NPS: 27000 | Nodes: 54
+Depth 4 | NPS: 60000 | Nodes: 180
+Depth 5 | NPS: 84000 | Nodes: 336
+Depth 6 | NPS: 96875 | Nodes: 775
+Depth 7 | NPS: 140846 | Nodes: 1831
+Depth 8 | NPS: 175000 | Nodes: 5250
+Depth 9 | NPS: 194953 | Nodes: 12672
+Depth 10 | NPS: 183253 | Nodes: 24556
+Depth 11 | NPS: 185174 | Nodes: 47775
+Depth 12 | NPS: 159198 | Nodes: 68137
+Depth 13 | NPS: 128270 | Nodes: 79656
+Depth 14 | NPS: 119841 | Nodes: 106779
+Depth 15 | NPS: 132382 | Nodes: 171568
+Depth 16 | NPS: 98820 | Nodes: 159299
+Depth 17 | NPS: 83358 | Nodes: 159299
+Depth 18 | NPS: 71950 | Nodes: 159299
+Depth 19 | NPS: 62988 | Nodes: 159299
+Depth 20 | NPS: 55698 | Nodes: 159299
+Depth 21 | NPS: 50331 | Nodes: 159299
+Depth 22 | NPS: 45933 | Nodes: 159299
+Depth 23 | NPS: 42321 | Nodes: 159299
+Depth 24 | NPS: 39091 | Nodes: 159299
+Depth 25 | NPS: 36386 | Nodes: 159299
+Depth 26 | NPS: 34052 | Nodes: 159299
+Depth 27 | NPS: 31994 | Nodes: 159299
+Depth 28 | NPS: 30198 | Nodes: 159299
+Depth 29 | NPS: 28553 | Nodes: 159299
+Depth 30 | NPS: 27054 | Nodes: 159299
+Depth 31 | NPS: 25730 | Nodes: 159299
+Depth 32 | NPS: 24541 | Nodes: 159299
+Depth 33 | NPS: 23453 | Nodes: 159299
+Depth 34 | NPS: 22449 | Nodes: 159299
+Depth 35 | NPS: 21460 | Nodes: 159299
+Depth 36 | NPS: 20483 | Nodes: 159299
+Depth 37 | NPS: 19685 | Nodes: 159299
+Depth 38 | NPS: 18968 | Nodes: 159299
+Depth 39 | NPS: 18257 | Nodes: 159299
+Depth 40 | NPS: 17586 | Nodes: 159299
+Timeout caught at Depth 41. Corrupted search board discarded.
+Playing: (play 5 8 6 9)
+Depth 1 | NPS: 2000 | Nodes: 4
+Depth 2 | NPS: 8000 | Nodes: 16
+Depth 3 | NPS: 26500 | Nodes: 53
+Depth 4 | NPS: 73000 | Nodes: 146
+Depth 5 | NPS: 148500 | Nodes: 594
+Depth 6 | NPS: 184375 | Nodes: 1475
+Depth 7 | NPS: 227450 | Nodes: 4549
+Depth 8 | NPS: 131480 | Nodes: 6837
+Depth 9 | NPS: 192968 | Nodes: 24121
+Depth 10 | NPS: 162995 | Nodes: 34881
+Depth 11 | NPS: 198704 | Nodes: 79283
+Depth 12 | NPS: 163705 | Nodes: 106245
+Depth 13 | NPS: 142001 | Nodes: 137457
+Depth 14 | NPS: 67730 | Nodes: 75994
+Depth 15 | NPS: 59932 | Nodes: 75994
+Depth 16 | NPS: 53820 | Nodes: 75994
+Depth 17 | NPS: 48839 | Nodes: 75994
+Depth 18 | NPS: 44781 | Nodes: 75994
+Depth 19 | NPS: 41189 | Nodes: 75994
+Depth 20 | NPS: 38187 | Nodes: 75994
+Depth 21 | NPS: 35627 | Nodes: 75994
+Depth 22 | NPS: 33374 | Nodes: 75994
+Depth 23 | NPS: 31324 | Nodes: 75994
+Depth 24 | NPS: 29546 | Nodes: 75994
+Depth 25 | NPS: 27918 | Nodes: 75994
+Depth 26 | NPS: 26441 | Nodes: 75994
+Depth 27 | NPS: 25163 | Nodes: 75994
+Depth 28 | NPS: 23920 | Nodes: 75994
+Depth 29 | NPS: 22745 | Nodes: 75994
+Depth 30 | NPS: 21762 | Nodes: 75994
+Depth 31 | NPS: 20877 | Nodes: 75994
+Depth 32 | NPS: 20061 | Nodes: 75994
+Depth 33 | NPS: 19331 | Nodes: 75994
+Depth 34 | NPS: 18644 | Nodes: 75994
+Depth 35 | NPS: 17991 | Nodes: 75994
+Depth 36 | NPS: 17370 | Nodes: 75994
+Depth 37 | NPS: 16786 | Nodes: 75994
+Depth 38 | NPS: 16234 | Nodes: 75994
+Depth 39 | NPS: 15743 | Nodes: 75994
+Depth 40 | NPS: 15275 | Nodes: 75994
+Depth 41 | NPS: 14848 | Nodes: 75994
+Depth 42 | NPS: 14439 | Nodes: 75994
+Depth 43 | NPS: 14049 | Nodes: 75994
+Depth 44 | NPS: 13675 | Nodes: 75994
+Depth 45 | NPS: 13327 | Nodes: 75994
+Depth 46 | NPS: 12999 | Nodes: 75994
+Depth 47 | NPS: 12686 | Nodes: 75994
+Depth 48 | NPS: 12372 | Nodes: 75994
+Depth 49 | NPS: 12079 | Nodes: 75994
+Playing: (play 8 1 9 2)
+Depth 1 | NPS: 5500 | Nodes: 11
+Depth 2 | NPS: 21500 | Nodes: 43
+Depth 3 | NPS: 67000 | Nodes: 134
+Depth 4 | NPS: 108333 | Nodes: 325
+Depth 5 | NPS: 166833 | Nodes: 1001
+Depth 6 | NPS: 146000 | Nodes: 1460
+Depth 7 | NPS: 196238 | Nodes: 4121
+Depth 8 | NPS: 166567 | Nodes: 6163
+Depth 9 | NPS: 281425 | Nodes: 30394
+Depth 10 | NPS: 203980 | Nodes: 41612
+Depth 11 | NPS: 234960 | Nodes: 95629
+Depth 12 | NPS: 92030 | Nodes: 45279
+Depth 13 | NPS: 78609 | Nodes: 45279
+Depth 14 | NPS: 68708 | Nodes: 45279
+Depth 15 | NPS: 60858 | Nodes: 45279
+Depth 16 | NPS: 54487 | Nodes: 45279
+Depth 17 | NPS: 49216 | Nodes: 45279
+Depth 18 | NPS: 44786 | Nodes: 45279
+Depth 19 | NPS: 41088 | Nodes: 45279
+Depth 20 | NPS: 37922 | Nodes: 45279
+Depth 21 | NPS: 35319 | Nodes: 45279
+Depth 22 | NPS: 32434 | Nodes: 45279
+Depth 23 | NPS: 30408 | Nodes: 45279
+Depth 24 | NPS: 28657 | Nodes: 45279
+Depth 25 | NPS: 27113 | Nodes: 45279
+Depth 26 | NPS: 25437 | Nodes: 45279
+Depth 27 | NPS: 23995 | Nodes: 45279
+Depth 28 | NPS: 22868 | Nodes: 45279
+Depth 29 | NPS: 21884 | Nodes: 45279
+Depth 30 | NPS: 21001 | Nodes: 45279
+Depth 31 | NPS: 20222 | Nodes: 45279
+Depth 32 | NPS: 19474 | Nodes: 45279
+Depth 33 | NPS: 18795 | Nodes: 45279
+Depth 34 | NPS: 18162 | Nodes: 45279
+Depth 35 | NPS: 17570 | Nodes: 45279
+Depth 36 | NPS: 17009 | Nodes: 45279
+Depth 37 | NPS: 16417 | Nodes: 45279
+Depth 38 | NPS: 15904 | Nodes: 45279
+Depth 39 | NPS: 15432 | Nodes: 45279
+Depth 40 | NPS: 14983 | Nodes: 45279
+Depth 41 | NPS: 14549 | Nodes: 45279
+Depth 42 | NPS: 14154 | Nodes: 45279
+Depth 43 | NPS: 13796 | Nodes: 45279
+Depth 44 | NPS: 13447 | Nodes: 45279
+Depth 45 | NPS: 13120 | Nodes: 45279
+Depth 46 | NPS: 12805 | Nodes: 45279
+Depth 47 | NPS: 12497 | Nodes: 45279
+Depth 48 | NPS: 12207 | Nodes: 45279
+Depth 49 | NPS: 11924 | Nodes: 45279
+Playing: (play 9 2 9 3)
+Depth 1 | NPS: 4500 | Nodes: 9
+Depth 2 | NPS: 18500 | Nodes: 37
+Depth 3 | NPS: 94000 | Nodes: 188
+Depth 4 | NPS: 84666 | Nodes: 254
+Depth 5 | NPS: 164250 | Nodes: 657
+Depth 6 | NPS: 146428 | Nodes: 1025
+Depth 7 | NPS: 285555 | Nodes: 5140
+Depth 8 | NPS: 211114 | Nodes: 7389
+Depth 9 | NPS: 249472 | Nodes: 18461
+Depth 10 | NPS: 104516 | Nodes: 9511
+Depth 11 | NPS: 88064 | Nodes: 9511
+Depth 12 | NPS: 75484 | Nodes: 9511
+Depth 13 | NPS: 66510 | Nodes: 9511
+Depth 14 | NPS: 59074 | Nodes: 9511
+Depth 15 | NPS: 53134 | Nodes: 9511
+Depth 16 | NPS: 48525 | Nodes: 9511
+Depth 17 | NPS: 44237 | Nodes: 9511
+Depth 18 | NPS: 40472 | Nodes: 9511
+Depth 19 | NPS: 37444 | Nodes: 9511
+Depth 20 | NPS: 34711 | Nodes: 9511
+Depth 21 | NPS: 32571 | Nodes: 9511
+Depth 22 | NPS: 30581 | Nodes: 9511
+Depth 23 | NPS: 28908 | Nodes: 9511
+Depth 24 | NPS: 27409 | Nodes: 9511
+Depth 25 | NPS: 26057 | Nodes: 9511
+Depth 26 | NPS: 24768 | Nodes: 9511
+Depth 27 | NPS: 23659 | Nodes: 9511
+Depth 28 | NPS: 22591 | Nodes: 9511
+Depth 29 | NPS: 21665 | Nodes: 9511
+Depth 30 | NPS: 20811 | Nodes: 9511
+Depth 31 | NPS: 20023 | Nodes: 9511
+Depth 32 | NPS: 19370 | Nodes: 9511
+Depth 33 | NPS: 18685 | Nodes: 9511
+Depth 34 | NPS: 18047 | Nodes: 9511
+Depth 35 | NPS: 17387 | Nodes: 9511
+Depth 36 | NPS: 16774 | Nodes: 9511
+Depth 37 | NPS: 16202 | Nodes: 9511
+Depth 38 | NPS: 15643 | Nodes: 9511
+Depth 39 | NPS: 15144 | Nodes: 9511
+Depth 40 | NPS: 14700 | Nodes: 9511
+Depth 41 | NPS: 14238 | Nodes: 9511
+Depth 42 | NPS: 13844 | Nodes: 9511
+Depth 43 | NPS: 13471 | Nodes: 9511
+Depth 44 | NPS: 13100 | Nodes: 9511
+Depth 45 | NPS: 12766 | Nodes: 9511
+Depth 46 | NPS: 12432 | Nodes: 9511
+Depth 47 | NPS: 12131 | Nodes: 9511
+Depth 48 | NPS: 11844 | Nodes: 9511
+Depth 49 | NPS: 11556 | Nodes: 9511
+Playing: (play 9 3 9 4)
+Depth 1 | NPS: 4000 | Nodes: 8
+Depth 2 | NPS: 14000 | Nodes: 28
+Depth 3 | NPS: 31333 | Nodes: 94
+Depth 4 | NPS: 58666 | Nodes: 176
+Depth 5 | NPS: 88000 | Nodes: 528
+Depth 6 | NPS: 90666 | Nodes: 816
+Depth 7 | NPS: 151600 | Nodes: 2274
+Depth 8 | NPS: 119578 | Nodes: 2272
+Depth 9 | NPS: 98782 | Nodes: 2272
+Depth 10 | NPS: 84148 | Nodes: 2272
+Depth 11 | NPS: 71000 | Nodes: 2272
+Depth 12 | NPS: 63111 | Nodes: 2272
+Depth 13 | NPS: 55414 | Nodes: 2272
+Depth 14 | NPS: 50488 | Nodes: 2272
+Depth 15 | NPS: 46367 | Nodes: 2272
+Depth 16 | NPS: 42867 | Nodes: 2272
+Depth 17 | NPS: 39859 | Nodes: 2272
+Depth 18 | NPS: 37245 | Nodes: 2272
+Depth 19 | NPS: 34953 | Nodes: 2272
+Depth 20 | NPS: 32927 | Nodes: 2272
+Depth 21 | NPS: 31123 | Nodes: 2272
+Depth 22 | NPS: 28759 | Nodes: 2272
+Depth 23 | NPS: 27373 | Nodes: 2272
+Depth 24 | NPS: 26114 | Nodes: 2272
+Depth 25 | NPS: 24967 | Nodes: 2272
+Depth 26 | NPS: 23915 | Nodes: 2272
+Depth 27 | NPS: 22720 | Nodes: 2272
+Depth 28 | NPS: 21846 | Nodes: 2272
+Depth 29 | NPS: 21233 | Nodes: 2272
+Depth 30 | NPS: 20468 | Nodes: 2272
+Depth 31 | NPS: 19756 | Nodes: 2272
+Depth 32 | NPS: 19092 | Nodes: 2272
+Depth 33 | NPS: 18471 | Nodes: 2272
+Depth 34 | NPS: 17750 | Nodes: 2272
+Depth 35 | NPS: 17212 | Nodes: 2272
+Depth 36 | NPS: 16705 | Nodes: 2272
+Depth 37 | NPS: 16228 | Nodes: 2272
+Depth 38 | NPS: 15777 | Nodes: 2272
+Depth 39 | NPS: 15351 | Nodes: 2272
+Depth 40 | NPS: 14947 | Nodes: 2272
+Depth 41 | NPS: 14564 | Nodes: 2272
+Depth 42 | NPS: 14200 | Nodes: 2272
+Depth 43 | NPS: 13853 | Nodes: 2272
+Depth 44 | NPS: 13523 | Nodes: 2272
+Depth 45 | NPS: 13209 | Nodes: 2272
+Depth 46 | NPS: 12909 | Nodes: 2272
+Depth 47 | NPS: 12622 | Nodes: 2272
+Depth 48 | NPS: 12347 | Nodes: 2272
+Depth 49 | NPS: 12021 | Nodes: 2272
+Playing: (play 9 4 9 5)
+Depth 1 | NPS: 4000 | Nodes: 8
+Depth 2 | NPS: 10000 | Nodes: 20
+Depth 3 | NPS: 39500 | Nodes: 79
+Depth 4 | NPS: 67000 | Nodes: 134
+Depth 5 | NPS: 140333 | Nodes: 421
+Depth 6 | NPS: 135750 | Nodes: 543
+Depth 7 | NPS: 108600 | Nodes: 543
+Depth 8 | NPS: 90500 | Nodes: 543
+Depth 9 | NPS: 77571 | Nodes: 543
+Depth 10 | NPS: 67875 | Nodes: 543
+Depth 11 | NPS: 60333 | Nodes: 543
+Depth 12 | NPS: 54300 | Nodes: 543
+Depth 13 | NPS: 49363 | Nodes: 543
+Depth 14 | NPS: 45250 | Nodes: 543
+Depth 15 | NPS: 41769 | Nodes: 543
+Depth 16 | NPS: 38785 | Nodes: 543
+Depth 17 | NPS: 36200 | Nodes: 543
+Depth 18 | NPS: 33937 | Nodes: 543
+Depth 19 | NPS: 31941 | Nodes: 543
+Depth 20 | NPS: 30166 | Nodes: 543
+Depth 21 | NPS: 28578 | Nodes: 543
+Depth 22 | NPS: 28578 | Nodes: 543
+Depth 23 | NPS: 27150 | Nodes: 543
+Depth 24 | NPS: 25857 | Nodes: 543
+Depth 25 | NPS: 24681 | Nodes: 543
+Depth 26 | NPS: 23608 | Nodes: 543
+Depth 27 | NPS: 22625 | Nodes: 543
+Depth 28 | NPS: 21720 | Nodes: 543
+Depth 29 | NPS: 20884 | Nodes: 543
+Depth 30 | NPS: 20111 | Nodes: 543
+Depth 31 | NPS: 19392 | Nodes: 543
+Depth 32 | NPS: 18724 | Nodes: 543
+Depth 33 | NPS: 17516 | Nodes: 543
+Depth 34 | NPS: 16968 | Nodes: 543
+Depth 35 | NPS: 16454 | Nodes: 543
+Depth 36 | NPS: 16454 | Nodes: 543
+Depth 37 | NPS: 15970 | Nodes: 543
+Depth 38 | NPS: 15514 | Nodes: 543
+Depth 39 | NPS: 15083 | Nodes: 543
+Depth 40 | NPS: 14675 | Nodes: 543
+Depth 41 | NPS: 14289 | Nodes: 543
+Depth 42 | NPS: 13923 | Nodes: 543
+Depth 43 | NPS: 13575 | Nodes: 543
+Depth 44 | NPS: 13243 | Nodes: 543
+Depth 45 | NPS: 12928 | Nodes: 543
+Depth 46 | NPS: 12627 | Nodes: 543
+Depth 47 | NPS: 12340 | Nodes: 543
+Depth 48 | NPS: 12066 | Nodes: 543
+Depth 49 | NPS: 11804 | Nodes: 543
+Playing: (play 9 5 8 6)
+Depth 1 | NPS: 3500 | Nodes: 7
+Depth 2 | NPS: 7500 | Nodes: 15
+Depth 3 | NPS: 20000 | Nodes: 60
+Depth 4 | NPS: 31666 | Nodes: 95
+Depth 5 | NPS: 31666 | Nodes: 95
+Depth 6 | NPS: 31666 | Nodes: 95
+Depth 7 | NPS: 31666 | Nodes: 95
+Depth 8 | NPS: 23750 | Nodes: 95
+Depth 9 | NPS: 23750 | Nodes: 95
+Depth 10 | NPS: 23750 | Nodes: 95
+Depth 11 | NPS: 23750 | Nodes: 95
+Depth 12 | NPS: 23750 | Nodes: 95
+Depth 13 | NPS: 23750 | Nodes: 95
+Depth 14 | NPS: 19000 | Nodes: 95
+Depth 15 | NPS: 19000 | Nodes: 95
+Depth 16 | NPS: 19000 | Nodes: 95
+Depth 17 | NPS: 19000 | Nodes: 95
+Depth 18 | NPS: 19000 | Nodes: 95
+Depth 19 | NPS: 19000 | Nodes: 95
+Depth 20 | NPS: 15833 | Nodes: 95
+Depth 21 | NPS: 15833 | Nodes: 95
+Depth 22 | NPS: 15833 | Nodes: 95
+Depth 23 | NPS: 15833 | Nodes: 95
+Depth 24 | NPS: 15833 | Nodes: 95
+Depth 25 | NPS: 15833 | Nodes: 95
+Depth 26 | NPS: 15833 | Nodes: 95
+Depth 27 | NPS: 13571 | Nodes: 95
+Depth 28 | NPS: 13571 | Nodes: 95
+Depth 29 | NPS: 13571 | Nodes: 95
+Depth 30 | NPS: 13571 | Nodes: 95
+Depth 31 | NPS: 13571 | Nodes: 95
+Depth 32 | NPS: 13571 | Nodes: 95
+Depth 33 | NPS: 11875 | Nodes: 95
+Depth 34 | NPS: 11875 | Nodes: 95
+Depth 35 | NPS: 11875 | Nodes: 95
+Depth 36 | NPS: 11875 | Nodes: 95
+Depth 37 | NPS: 11875 | Nodes: 95
+Depth 38 | NPS: 11875 | Nodes: 95
+Depth 39 | NPS: 11875 | Nodes: 95
+Depth 40 | NPS: 10555 | Nodes: 95
+Depth 41 | NPS: 10555 | Nodes: 95
+Depth 42 | NPS: 10555 | Nodes: 95
+Depth 43 | NPS: 10555 | Nodes: 95
+Depth 44 | NPS: 10555 | Nodes: 95
+Depth 45 | NPS: 10555 | Nodes: 95
+Depth 46 | NPS: 9500 | Nodes: 95
+Depth 47 | NPS: 9500 | Nodes: 95
+Depth 48 | NPS: 9500 | Nodes: 95
+Depth 49 | NPS: 9500 | Nodes: 95
+Playing: (play 8 6 8 7)
+Depth 1 | NPS: 7000 | Nodes: 7
+Depth 2 | NPS: 14000 | Nodes: 14
+Depth 3 | NPS: 14000 | Nodes: 14
+Depth 4 | NPS: 14000 | Nodes: 14
+Depth 5 | NPS: 14000 | Nodes: 14
+Depth 6 | NPS: 7000 | Nodes: 14
+Depth 7 | NPS: 7000 | Nodes: 14
+Depth 8 | NPS: 7000 | Nodes: 14
+Depth 9 | NPS: 7000 | Nodes: 14
+Depth 10 | NPS: 7000 | Nodes: 14
+Depth 11 | NPS: 7000 | Nodes: 14
+Depth 12 | NPS: 7000 | Nodes: 14
+Depth 13 | NPS: 7000 | Nodes: 14
+Depth 14 | NPS: 7000 | Nodes: 14
+Depth 15 | NPS: 7000 | Nodes: 14
+Depth 16 | NPS: 7000 | Nodes: 14
+Depth 17 | NPS: 7000 | Nodes: 14
+Depth 18 | NPS: 7000 | Nodes: 14
+Depth 19 | NPS: 7000 | Nodes: 14
+Depth 20 | NPS: 7000 | Nodes: 14
+Depth 21 | NPS: 7000 | Nodes: 14
+Depth 22 | NPS: 7000 | Nodes: 14
+Depth 23 | NPS: 7000 | Nodes: 14
+Depth 24 | NPS: 7000 | Nodes: 14
+Depth 25 | NPS: 7000 | Nodes: 14
+Depth 26 | NPS: 7000 | Nodes: 14
+Depth 27 | NPS: 7000 | Nodes: 14
+Depth 28 | NPS: 7000 | Nodes: 14
+Depth 29 | NPS: 7000 | Nodes: 14
+Depth 30 | NPS: 7000 | Nodes: 14
+Depth 31 | NPS: 7000 | Nodes: 14
+Depth 32 | NPS: 7000 | Nodes: 14
+Depth 33 | NPS: 7000 | Nodes: 14
+Depth 34 | NPS: 7000 | Nodes: 14
+Depth 35 | NPS: 7000 | Nodes: 14
+Depth 36 | NPS: 7000 | Nodes: 14
+Depth 37 | NPS: 7000 | Nodes: 14
+Depth 38 | NPS: 7000 | Nodes: 14
+Depth 39 | NPS: 7000 | Nodes: 14
+Depth 40 | NPS: 7000 | Nodes: 14
+Depth 41 | NPS: 7000 | Nodes: 14
+Depth 42 | NPS: 7000 | Nodes: 14
+Depth 43 | NPS: 7000 | Nodes: 14
+Depth 44 | NPS: 7000 | Nodes: 14
+Depth 45 | NPS: 7000 | Nodes: 14
+Depth 46 | NPS: 7000 | Nodes: 14
+Depth 47 | NPS: 4666 | Nodes: 14
+Depth 48 | NPS: 4666 | Nodes: 14
+Depth 49 | NPS: 4666 | Nodes: 14
+Playing: (play 8 7 9 7)
+
+--- TOURNAMENT MATCH START: white (10x10) ---
+Depth 1 | NPS: 20000 | Nodes: 80
+Depth 2 | NPS: 29528 | Nodes: 1565
+Depth 3 | NPS: 34392 | Nodes: 76386
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 4 1 4 8)
+Depth 1 | NPS: 13333 | Nodes: 80
+Depth 2 | NPS: 25804 | Nodes: 1058
+Depth 3 | NPS: 36027 | Nodes: 39414
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 10 4 7 7)
+Depth 1 | NPS: 23666 | Nodes: 71
+Depth 2 | NPS: 33818 | Nodes: 744
+Depth 3 | NPS: 38426 | Nodes: 22979
+Depth 4 | NPS: 37199 | Nodes: 191948
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 1 4 3 4)
+Depth 1 | NPS: 20750 | Nodes: 83
+Depth 2 | NPS: 31888 | Nodes: 574
+Depth 3 | NPS: 43511 | Nodes: 17535
+Depth 4 | NPS: 41429 | Nodes: 198737
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 1 8 2)
+Depth 1 | NPS: 29333 | Nodes: 88
+Depth 2 | NPS: 34347 | Nodes: 790
+Depth 3 | NPS: 46521 | Nodes: 19260
+Depth 4 | NPS: 45170 | Nodes: 248485
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 7 7 6)
+Depth 1 | NPS: 22000 | Nodes: 88
+Depth 2 | NPS: 39935 | Nodes: 1238
+Depth 3 | NPS: 49858 | Nodes: 27871
+Depth 4 | NPS: 46303 | Nodes: 237211
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 8 3 8)
+Depth 1 | NPS: 20250 | Nodes: 81
+Depth 2 | NPS: 36250 | Nodes: 870
+Depth 3 | NPS: 52474 | Nodes: 18786
+Depth 4 | NPS: 48873 | Nodes: 125116
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 3 4 3 3)
+Depth 1 | NPS: 21333 | Nodes: 64
+Depth 2 | NPS: 32047 | Nodes: 673
+Depth 3 | NPS: 51303 | Nodes: 16725
+Depth 4 | NPS: 50121 | Nodes: 128662
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 3 8 2 7)
+Depth 1 | NPS: 20666 | Nodes: 62
+Depth 2 | NPS: 47941 | Nodes: 815
+Depth 3 | NPS: 56854 | Nodes: 13304
+Depth 4 | NPS: 57209 | Nodes: 135815
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 6 8 5)
+Depth 1 | NPS: 10800 | Nodes: 54
+Depth 2 | NPS: 28800 | Nodes: 576
+Depth 3 | NPS: 51448 | Nodes: 13891
+Depth 4 | NPS: 52897 | Nodes: 141236
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 8 5 8 9)
+Depth 1 | NPS: 15000 | Nodes: 60
+Depth 2 | NPS: 47333 | Nodes: 568
+Depth 3 | NPS: 64388 | Nodes: 8628
+Depth 4 | NPS: 75750 | Nodes: 129760
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 8 2 9 2)
+Depth 1 | NPS: 25000 | Nodes: 50
+Depth 2 | NPS: 64000 | Nodes: 512
+Depth 3 | NPS: 86052 | Nodes: 8261
+Depth 4 | NPS: 82862 | Nodes: 48640
+Depth 5 | NPS: 94125 | Nodes: 748014
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 9 2 7 4)
+Depth 1 | NPS: 19500 | Nodes: 39
+Depth 2 | NPS: 47000 | Nodes: 282
+Depth 3 | NPS: 78203 | Nodes: 4223
+Depth 4 | NPS: 81409 | Nodes: 28249
+Depth 5 | NPS: 88027 | Nodes: 309240
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 7 4 7 3)
+Depth 1 | NPS: 12333 | Nodes: 37
+Depth 2 | NPS: 66625 | Nodes: 533
+Depth 3 | NPS: 95810 | Nodes: 10635
+Depth 4 | NPS: 96497 | Nodes: 110876
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 3 7 2)
+Depth 1 | NPS: 18500 | Nodes: 37
+Depth 2 | NPS: 83111 | Nodes: 748
+Depth 3 | NPS: 94638 | Nodes: 12303
+Depth 4 | NPS: 113407 | Nodes: 155935
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 8 9 8 7)
+Depth 1 | NPS: 17000 | Nodes: 34
+Depth 2 | NPS: 80714 | Nodes: 565
+Depth 3 | NPS: 82500 | Nodes: 7095
+Depth 4 | NPS: 121936 | Nodes: 81941
+Depth 5 | NPS: 116910 | Nodes: 504117
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 3 3 2 3)
+Depth 1 | NPS: 13000 | Nodes: 26
+Depth 2 | NPS: 65000 | Nodes: 325
+Depth 3 | NPS: 117843 | Nodes: 3771
+Depth 4 | NPS: 118574 | Nodes: 32608
+Depth 5 | NPS: 120553 | Nodes: 177576
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 2 3 3 2)
+Depth 1 | NPS: 11500 | Nodes: 23
+Depth 2 | NPS: 60500 | Nodes: 242
+Depth 3 | NPS: 116600 | Nodes: 2332
+Depth 4 | NPS: 132457 | Nodes: 18544
+Depth 5 | NPS: 127474 | Nodes: 96243
+Depth 6 | NPS: 133199 | Nodes: 487112
+Timeout caught at Depth 7. Corrupted search board discarded.
+Playing: (play 2 7 3 6)
+Depth 1 | NPS: 9500 | Nodes: 19
+Depth 2 | NPS: 57750 | Nodes: 231
+Depth 3 | NPS: 121363 | Nodes: 1335
+Depth 4 | NPS: 151296 | Nodes: 12255
+Depth 5 | NPS: 152646 | Nodes: 65180
+Depth 6 | NPS: 163805 | Nodes: 423436
+Timeout caught at Depth 7. Corrupted search board discarded.
+Playing: (play 8 7 7 8)
+Depth 1 | NPS: 5000 | Nodes: 15
+Depth 2 | NPS: 46000 | Nodes: 184
+Depth 3 | NPS: 75000 | Nodes: 675
+Depth 4 | NPS: 106407 | Nodes: 2873
+Depth 5 | NPS: 178240 | Nodes: 28162
+Depth 6 | NPS: 185752 | Nodes: 162905
+Depth 7 | NPS: 176788 | Nodes: 664547
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 3 6 4 5)
+Depth 1 | NPS: 6500 | Nodes: 13
+Depth 2 | NPS: 38000 | Nodes: 114
+Depth 3 | NPS: 107200 | Nodes: 536
+Depth 4 | NPS: 165000 | Nodes: 3300
+Depth 5 | NPS: 195300 | Nodes: 23436
+Depth 6 | NPS: 203448 | Nodes: 122883
+Depth 7 | NPS: 186167 | Nodes: 438239
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 4 5 4 4)
+Depth 1 | NPS: 6500 | Nodes: 13
+Depth 2 | NPS: 36000 | Nodes: 72
+Depth 3 | NPS: 171125 | Nodes: 1369
+Depth 4 | NPS: 196756 | Nodes: 8067
+Depth 5 | NPS: 214626 | Nodes: 46574
+Depth 6 | NPS: 225360 | Nodes: 247897
+Depth 7 | NPS: 212682 | Nodes: 891141
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 4 4 5 3)
+Depth 1 | NPS: 7000 | Nodes: 14
+Depth 2 | NPS: 46666 | Nodes: 140
+Depth 3 | NPS: 128714 | Nodes: 901
+Depth 4 | NPS: 206973 | Nodes: 7865
+Depth 5 | NPS: 225116 | Nodes: 40746
+Depth 6 | NPS: 220020 | Nodes: 142133
+Depth 7 | NPS: 245215 | Nodes: 707201
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 5 3 5 4)
+Depth 1 | NPS: 5500 | Nodes: 11
+Depth 2 | NPS: 48000 | Nodes: 144
+Depth 3 | NPS: 144400 | Nodes: 722
+Depth 4 | NPS: 247500 | Nodes: 5940
+Depth 5 | NPS: 213000 | Nodes: 15336
+Depth 6 | NPS: 257941 | Nodes: 75319
+Depth 7 | NPS: 235941 | Nodes: 212347
+Depth 8 | NPS: 224331 | Nodes: 513718
+Depth 9 | NPS: 207296 | Nodes: 1058041
+Timeout caught at Depth 10. Corrupted search board discarded.
+Playing: (play 7 8 8 8)
+Depth 1 | NPS: 5500 | Nodes: 11
+Depth 2 | NPS: 66500 | Nodes: 133
+Depth 3 | NPS: 160600 | Nodes: 803
+Depth 4 | NPS: 252052 | Nodes: 4789
+Depth 5 | NPS: 223898 | Nodes: 13210
+Depth 6 | NPS: 216868 | Nodes: 32964
+Depth 7 | NPS: 220399 | Nodes: 93890
+Depth 8 | NPS: 274085 | Nodes: 428121
+Depth 9 | NPS: 233753 | Nodes: 906262
+Depth 10 | NPS: 193829 | Nodes: 1470389
+Timeout caught at Depth 11. Corrupted search board discarded.
+Playing: (play 3 2 3 1)
+Depth 1 | NPS: 5500 | Nodes: 11
+Depth 2 | NPS: 49000 | Nodes: 147
+Depth 3 | NPS: 161000 | Nodes: 805
+Depth 4 | NPS: 233000 | Nodes: 3495
+Depth 5 | NPS: 196902 | Nodes: 8073
+Depth 6 | NPS: 278408 | Nodes: 48443
+Depth 7 | NPS: 222486 | Nodes: 101454
+Depth 8 | NPS: 245073 | Nodes: 300215
+Depth 9 | NPS: 229768 | Nodes: 694819
+Depth 10 | NPS: 200085 | Nodes: 1234330
+Timeout caught at Depth 11. Corrupted search board discarded.
+Playing: (play 3 1 2 1)
+Depth 1 | NPS: 5500 | Nodes: 11
+Depth 2 | NPS: 48500 | Nodes: 97
+Depth 3 | NPS: 116500 | Nodes: 466
+Depth 4 | NPS: 266333 | Nodes: 3196
+Depth 5 | NPS: 234128 | Nodes: 9131
+Depth 6 | NPS: 262362 | Nodes: 32533
+Depth 7 | NPS: 230451 | Nodes: 68905
+Depth 8 | NPS: 230213 | Nodes: 164833
+Depth 9 | NPS: 166454 | Nodes: 206737
+Depth 10 | NPS: 141178 | Nodes: 264710
+Depth 11 | NPS: 139586 | Nodes: 392937
+Depth 12 | NPS: 213330 | Nodes: 1186331
+Timeout caught at Depth 13. Corrupted search board discarded.
+Playing: (play 2 1 1 1)
+Depth 1 | NPS: 5500 | Nodes: 11
+Depth 2 | NPS: 60500 | Nodes: 121
+Depth 3 | NPS: 148000 | Nodes: 592
+Depth 4 | NPS: 265272 | Nodes: 2918
+Depth 5 | NPS: 229500 | Nodes: 7344
+Depth 6 | NPS: 221823 | Nodes: 25066
+Depth 7 | NPS: 204286 | Nodes: 45556
+Depth 8 | NPS: 223967 | Nodes: 109968
+Depth 9 | NPS: 224652 | Nodes: 239480
+Depth 10 | NPS: 193183 | Nodes: 374969
+Depth 11 | NPS: 210773 | Nodes: 765951
+Depth 12 | NPS: 168219 | Nodes: 962384
+Timeout caught at Depth 13. Corrupted search board discarded.
+Playing: (play 1 1 1 2)
+Depth 1 | NPS: 5000 | Nodes: 10
+Depth 2 | NPS: 34000 | Nodes: 68
+Depth 3 | NPS: 60666 | Nodes: 182
+Depth 4 | NPS: 164600 | Nodes: 823
+Depth 5 | NPS: 180400 | Nodes: 1804
+Depth 6 | NPS: 220458 | Nodes: 5291
+Depth 7 | NPS: 203367 | Nodes: 9965
+Depth 8 | NPS: 220750 | Nodes: 22958
+Depth 9 | NPS: 213563 | Nodes: 43567
+Depth 10 | NPS: 221985 | Nodes: 90570
+Depth 11 | NPS: 210253 | Nodes: 154326
+Depth 12 | NPS: 206034 | Nodes: 271966
+Depth 13 | NPS: 204276 | Nodes: 486995
+Depth 14 | NPS: 227287 | Nodes: 1039842
+Timeout caught at Depth 15. Corrupted search board discarded.
+Playing: (play 1 2 1 3)
+Depth 1 | NPS: 5000 | Nodes: 10
+Depth 2 | NPS: 25000 | Nodes: 50
+Depth 3 | NPS: 57000 | Nodes: 171
+Depth 4 | NPS: 132500 | Nodes: 530
+Depth 5 | NPS: 157125 | Nodes: 1257
+Depth 6 | NPS: 200266 | Nodes: 3004
+Depth 7 | NPS: 231131 | Nodes: 8783
+Depth 8 | NPS: 200388 | Nodes: 14428
+Depth 9 | NPS: 239284 | Nodes: 37807
+Depth 10 | NPS: 223883 | Nodes: 68956
+Depth 11 | NPS: 259007 | Nodes: 175089
+Depth 12 | NPS: 276223 | Nodes: 452454
+Depth 13 | NPS: 287370 | Nodes: 1117011
+Depth 14 | NPS: 151417 | Nodes: 834006
+Depth 15 | NPS: 182184 | Nodes: 1529804
+Depth 16 | NPS: 30820 | Nodes: 273809
+Timeout caught at Depth 17. Corrupted search board discarded.
+Playing: (play 1 3 2 4)
+Depth 1 | NPS: 3666 | Nodes: 11
+Depth 2 | NPS: 16666 | Nodes: 50
+Depth 3 | NPS: 48000 | Nodes: 192
+Depth 4 | NPS: 117666 | Nodes: 706
+Depth 5 | NPS: 196000 | Nodes: 2940
+Depth 6 | NPS: 172444 | Nodes: 4656
+Depth 7 | NPS: 223732 | Nodes: 12529
+Depth 8 | NPS: 227851 | Nodes: 24608
+Depth 9 | NPS: 283723 | Nodes: 72917
+Depth 10 | NPS: 302188 | Nodes: 212741
+Depth 11 | NPS: 323358 | Nodes: 632813
+Depth 12 | NPS: 150236 | Nodes: 416004
+Depth 13 | NPS: 192352 | Nodes: 835772
+Depth 14 | NPS: 27298 | Nodes: 124616
+Depth 15 | NPS: 26015 | Nodes: 124616
+Depth 16 | NPS: 24828 | Nodes: 124616
+Depth 17 | NPS: 23772 | Nodes: 124616
+Depth 18 | NPS: 22810 | Nodes: 124616
+Depth 19 | NPS: 21923 | Nodes: 124616
+Depth 20 | NPS: 21074 | Nodes: 124616
+Depth 21 | NPS: 20312 | Nodes: 124616
+Depth 22 | NPS: 19562 | Nodes: 124616
+Depth 23 | NPS: 18906 | Nodes: 124616
+Depth 24 | NPS: 18258 | Nodes: 124616
+Depth 25 | NPS: 17681 | Nodes: 124616
+Depth 26 | NPS: 17143 | Nodes: 124616
+Depth 27 | NPS: 16591 | Nodes: 124616
+Depth 28 | NPS: 16094 | Nodes: 124616
+Depth 29 | NPS: 15627 | Nodes: 124616
+Depth 30 | NPS: 15210 | Nodes: 124616
+Depth 31 | NPS: 14794 | Nodes: 124616
+Depth 32 | NPS: 14399 | Nodes: 124616
+Depth 33 | NPS: 14039 | Nodes: 124616
+Depth 34 | NPS: 13701 | Nodes: 124616
+Timeout caught at Depth 35. Corrupted search board discarded.
+Playing: (play 2 4 2 5)
+Depth 1 | NPS: 5500 | Nodes: 11
+Depth 2 | NPS: 26666 | Nodes: 80
+Depth 3 | NPS: 98500 | Nodes: 394
+Depth 4 | NPS: 211333 | Nodes: 1268
+Depth 5 | NPS: 220000 | Nodes: 2640
+Depth 6 | NPS: 235218 | Nodes: 7527
+Depth 7 | NPS: 216209 | Nodes: 13405
+Depth 8 | NPS: 301796 | Nodes: 47382
+Depth 9 | NPS: 354891 | Nodes: 185608
+Depth 10 | NPS: 270542 | Nodes: 303008
+Depth 11 | NPS: 231358 | Nodes: 464799
+Depth 12 | NPS: 46700 | Nodes: 101947
+Depth 13 | NPS: 43252 | Nodes: 101947
+Depth 14 | NPS: 40295 | Nodes: 101947
+Depth 15 | NPS: 37660 | Nodes: 101947
+Depth 16 | NPS: 35117 | Nodes: 101947
+Depth 17 | NPS: 32992 | Nodes: 101947
+Depth 18 | NPS: 31214 | Nodes: 101947
+Depth 19 | NPS: 29652 | Nodes: 101947
+Depth 20 | NPS: 28069 | Nodes: 101947
+Depth 21 | NPS: 26799 | Nodes: 101947
+Depth 22 | NPS: 25659 | Nodes: 101947
+Depth 23 | NPS: 24583 | Nodes: 101947
+Depth 24 | NPS: 23609 | Nodes: 101947
+Depth 25 | NPS: 22685 | Nodes: 101947
+Depth 26 | NPS: 21839 | Nodes: 101947
+Depth 27 | NPS: 21050 | Nodes: 101947
+Depth 28 | NPS: 20336 | Nodes: 101947
+Depth 29 | NPS: 19650 | Nodes: 101947
+Depth 30 | NPS: 18988 | Nodes: 101947
+Depth 31 | NPS: 18372 | Nodes: 101947
+Depth 32 | NPS: 17826 | Nodes: 101947
+Depth 33 | NPS: 17302 | Nodes: 101947
+Depth 34 | NPS: 16797 | Nodes: 101947
+Depth 35 | NPS: 16327 | Nodes: 101947
+Depth 36 | NPS: 15869 | Nodes: 101947
+Depth 37 | NPS: 15451 | Nodes: 101947
+Depth 38 | NPS: 15063 | Nodes: 101947
+Depth 39 | NPS: 14696 | Nodes: 101947
+Depth 40 | NPS: 14334 | Nodes: 101947
+Depth 41 | NPS: 13986 | Nodes: 101947
+Depth 42 | NPS: 13654 | Nodes: 101947
+Depth 43 | NPS: 13349 | Nodes: 101947
+Depth 44 | NPS: 13051 | Nodes: 101947
+Depth 45 | NPS: 12748 | Nodes: 101947
+Depth 46 | NPS: 12473 | Nodes: 101947
+Depth 47 | NPS: 12213 | Nodes: 101947
+Depth 48 | NPS: 11968 | Nodes: 101947
+Depth 49 | NPS: 11730 | Nodes: 101947
+Playing: (play 7 2 8 3)
+Depth 1 | NPS: 3333 | Nodes: 10
+Depth 2 | NPS: 18666 | Nodes: 56
+Depth 3 | NPS: 77666 | Nodes: 233
+Depth 4 | NPS: 167400 | Nodes: 837
+Depth 5 | NPS: 173625 | Nodes: 1389
+Depth 6 | NPS: 311285 | Nodes: 8716
+Depth 7 | NPS: 289285 | Nodes: 20250
+Depth 8 | NPS: 253448 | Nodes: 36750
+Depth 9 | NPS: 275383 | Nodes: 82615
+Depth 10 | NPS: 79977 | Nodes: 27832
+Depth 11 | NPS: 70282 | Nodes: 27832
+Depth 12 | NPS: 62968 | Nodes: 27832
+Depth 13 | NPS: 56800 | Nodes: 27832
+Depth 14 | NPS: 51636 | Nodes: 27832
+Depth 15 | NPS: 47494 | Nodes: 27832
+Depth 16 | NPS: 43968 | Nodes: 27832
+Depth 17 | NPS: 40869 | Nodes: 27832
+Depth 18 | NPS: 38178 | Nodes: 27832
+Depth 19 | NPS: 35912 | Nodes: 27832
+Depth 20 | NPS: 33900 | Nodes: 27832
+Depth 21 | NPS: 32027 | Nodes: 27832
+Depth 22 | NPS: 30318 | Nodes: 27832
+Depth 23 | NPS: 28781 | Nodes: 27832
+Depth 24 | NPS: 27447 | Nodes: 27832
+Depth 25 | NPS: 26182 | Nodes: 27832
+Depth 26 | NPS: 25006 | Nodes: 27832
+Depth 27 | NPS: 23972 | Nodes: 27832
+Depth 28 | NPS: 23039 | Nodes: 27832
+Depth 29 | NPS: 22141 | Nodes: 27832
+Depth 30 | NPS: 21343 | Nodes: 27832
+Depth 31 | NPS: 20601 | Nodes: 27832
+Depth 32 | NPS: 19894 | Nodes: 27832
+Depth 33 | NPS: 19220 | Nodes: 27832
+Depth 34 | NPS: 18629 | Nodes: 27832
+Depth 35 | NPS: 18072 | Nodes: 27832
+Depth 36 | NPS: 17330 | Nodes: 27832
+Depth 37 | NPS: 16776 | Nodes: 27832
+Depth 38 | NPS: 16314 | Nodes: 27832
+Depth 39 | NPS: 15876 | Nodes: 27832
+Depth 40 | NPS: 15479 | Nodes: 27832
+Depth 41 | NPS: 15085 | Nodes: 27832
+Depth 42 | NPS: 14694 | Nodes: 27832
+Depth 43 | NPS: 14309 | Nodes: 27832
+Depth 44 | NPS: 13943 | Nodes: 27832
+Depth 45 | NPS: 13603 | Nodes: 27832
+Depth 46 | NPS: 13291 | Nodes: 27832
+Depth 47 | NPS: 12993 | Nodes: 27832
+Depth 48 | NPS: 12708 | Nodes: 27832
+Depth 49 | NPS: 12441 | Nodes: 27832
+Playing: (play 2 5 1 5)
+Depth 1 | NPS: 4500 | Nodes: 9
+Depth 2 | NPS: 23000 | Nodes: 46
+Depth 3 | NPS: 111000 | Nodes: 222
+Depth 4 | NPS: 162500 | Nodes: 650
+Depth 5 | NPS: 283555 | Nodes: 2552
+Depth 6 | NPS: 131583 | Nodes: 1579
+Depth 7 | NPS: 336735 | Nodes: 11449
+Depth 8 | NPS: 120750 | Nodes: 5313
+Depth 9 | NPS: 100245 | Nodes: 5313
+Depth 10 | NPS: 85693 | Nodes: 5313
+Depth 11 | NPS: 75900 | Nodes: 5313
+Depth 12 | NPS: 67253 | Nodes: 5313
+Depth 13 | NPS: 60375 | Nodes: 5313
+Depth 14 | NPS: 54773 | Nodes: 5313
+Depth 15 | NPS: 50122 | Nodes: 5313
+Depth 16 | NPS: 45801 | Nodes: 5313
+Depth 17 | NPS: 42504 | Nodes: 5313
+Depth 18 | NPS: 39649 | Nodes: 5313
+Depth 19 | NPS: 37153 | Nodes: 5313
+Depth 20 | NPS: 34953 | Nodes: 5313
+Depth 21 | NPS: 33000 | Nodes: 5313
+Depth 22 | NPS: 31252 | Nodes: 5313
+Depth 23 | NPS: 29848 | Nodes: 5313
+Depth 24 | NPS: 28260 | Nodes: 5313
+Depth 25 | NPS: 26969 | Nodes: 5313
+Depth 26 | NPS: 25791 | Nodes: 5313
+Depth 27 | NPS: 24711 | Nodes: 5313
+Depth 28 | NPS: 23718 | Nodes: 5313
+Depth 29 | NPS: 22900 | Nodes: 5313
+Depth 30 | NPS: 22045 | Nodes: 5313
+Depth 31 | NPS: 21167 | Nodes: 5313
+Depth 32 | NPS: 20513 | Nodes: 5313
+Depth 33 | NPS: 19824 | Nodes: 5313
+Depth 34 | NPS: 19180 | Nodes: 5313
+Depth 35 | NPS: 18512 | Nodes: 5313
+Depth 36 | NPS: 17949 | Nodes: 5313
+Depth 37 | NPS: 17419 | Nodes: 5313
+Depth 38 | NPS: 16920 | Nodes: 5313
+Depth 39 | NPS: 16500 | Nodes: 5313
+Depth 40 | NPS: 16051 | Nodes: 5313
+Depth 41 | NPS: 15626 | Nodes: 5313
+Depth 42 | NPS: 15223 | Nodes: 5313
+Depth 43 | NPS: 14882 | Nodes: 5313
+Depth 44 | NPS: 14516 | Nodes: 5313
+Depth 45 | NPS: 14168 | Nodes: 5313
+Depth 46 | NPS: 13835 | Nodes: 5313
+Depth 47 | NPS: 13519 | Nodes: 5313
+Depth 48 | NPS: 13216 | Nodes: 5313
+Depth 49 | NPS: 12927 | Nodes: 5313
+Playing: (play 1 5 1 6)
+Depth 1 | NPS: 8000 | Nodes: 8
+Depth 2 | NPS: 17000 | Nodes: 34
+Depth 3 | NPS: 82000 | Nodes: 164
+Depth 4 | NPS: 132000 | Nodes: 264
+Depth 5 | NPS: 185000 | Nodes: 740
+Depth 6 | NPS: 158166 | Nodes: 949
+Depth 7 | NPS: 135571 | Nodes: 949
+Depth 8 | NPS: 105444 | Nodes: 949
+Depth 9 | NPS: 94900 | Nodes: 949
+Depth 10 | NPS: 79083 | Nodes: 949
+Depth 11 | NPS: 73000 | Nodes: 949
+Depth 12 | NPS: 63266 | Nodes: 949
+Depth 13 | NPS: 55823 | Nodes: 949
+Depth 14 | NPS: 49947 | Nodes: 949
+Depth 15 | NPS: 45190 | Nodes: 949
+Depth 16 | NPS: 41260 | Nodes: 949
+Depth 17 | NPS: 39541 | Nodes: 949
+Depth 18 | NPS: 36500 | Nodes: 949
+Depth 19 | NPS: 33892 | Nodes: 949
+Depth 20 | NPS: 31633 | Nodes: 949
+Depth 21 | NPS: 29656 | Nodes: 949
+Depth 22 | NPS: 27911 | Nodes: 949
+Depth 23 | NPS: 26361 | Nodes: 949
+Depth 24 | NPS: 25648 | Nodes: 949
+Depth 25 | NPS: 24333 | Nodes: 949
+Depth 26 | NPS: 23146 | Nodes: 949
+Depth 27 | NPS: 22595 | Nodes: 949
+Depth 28 | NPS: 21568 | Nodes: 949
+Depth 29 | NPS: 20630 | Nodes: 949
+Depth 30 | NPS: 19770 | Nodes: 949
+Depth 31 | NPS: 19367 | Nodes: 949
+Depth 32 | NPS: 18607 | Nodes: 949
+Depth 33 | NPS: 18250 | Nodes: 949
+Depth 34 | NPS: 17574 | Nodes: 949
+Depth 35 | NPS: 16649 | Nodes: 949
+Depth 36 | NPS: 16362 | Nodes: 949
+Depth 37 | NPS: 15816 | Nodes: 949
+Depth 38 | NPS: 15557 | Nodes: 949
+Depth 39 | NPS: 15063 | Nodes: 949
+Depth 40 | NPS: 14600 | Nodes: 949
+Depth 41 | NPS: 14378 | Nodes: 949
+Depth 42 | NPS: 14164 | Nodes: 949
+Depth 43 | NPS: 13753 | Nodes: 949
+Depth 44 | NPS: 13366 | Nodes: 949
+Depth 45 | NPS: 13180 | Nodes: 949
+Depth 46 | NPS: 12824 | Nodes: 949
+Depth 47 | NPS: 12653 | Nodes: 949
+Depth 48 | NPS: 12324 | Nodes: 949
+Depth 49 | NPS: 12012 | Nodes: 949
+Playing: (play 8 3 9 3)
+Depth 1 | NPS: 4500 | Nodes: 9
+Depth 2 | NPS: 14000 | Nodes: 28
+Depth 3 | NPS: 43666 | Nodes: 131
+Depth 4 | NPS: 59666 | Nodes: 179
+Depth 5 | NPS: 59666 | Nodes: 179
+Depth 6 | NPS: 59666 | Nodes: 179
+Depth 7 | NPS: 44750 | Nodes: 179
+Depth 8 | NPS: 44750 | Nodes: 179
+Depth 9 | NPS: 44750 | Nodes: 179
+Depth 10 | NPS: 44750 | Nodes: 179
+Depth 11 | NPS: 35800 | Nodes: 179
+Depth 12 | NPS: 35800 | Nodes: 179
+Depth 13 | NPS: 35800 | Nodes: 179
+Depth 14 | NPS: 35800 | Nodes: 179
+Depth 15 | NPS: 29833 | Nodes: 179
+Depth 16 | NPS: 25571 | Nodes: 179
+Depth 17 | NPS: 25571 | Nodes: 179
+Depth 18 | NPS: 25571 | Nodes: 179
+Depth 19 | NPS: 22375 | Nodes: 179
+Depth 20 | NPS: 22375 | Nodes: 179
+Depth 21 | NPS: 19888 | Nodes: 179
+Depth 22 | NPS: 19888 | Nodes: 179
+Depth 23 | NPS: 19888 | Nodes: 179
+Depth 24 | NPS: 19888 | Nodes: 179
+Depth 25 | NPS: 17900 | Nodes: 179
+Depth 26 | NPS: 17900 | Nodes: 179
+Depth 27 | NPS: 17900 | Nodes: 179
+Depth 28 | NPS: 16272 | Nodes: 179
+Depth 29 | NPS: 16272 | Nodes: 179
+Depth 30 | NPS: 16272 | Nodes: 179
+Depth 31 | NPS: 16272 | Nodes: 179
+Depth 32 | NPS: 14916 | Nodes: 179
+Depth 33 | NPS: 14916 | Nodes: 179
+Depth 34 | NPS: 14916 | Nodes: 179
+Depth 35 | NPS: 14916 | Nodes: 179
+Depth 36 | NPS: 13769 | Nodes: 179
+Depth 37 | NPS: 13769 | Nodes: 179
+Depth 38 | NPS: 12785 | Nodes: 179
+Depth 39 | NPS: 12785 | Nodes: 179
+Depth 40 | NPS: 12785 | Nodes: 179
+Depth 41 | NPS: 12785 | Nodes: 179
+Depth 42 | NPS: 11933 | Nodes: 179
+Depth 43 | NPS: 11933 | Nodes: 179
+Depth 44 | NPS: 11933 | Nodes: 179
+Depth 45 | NPS: 11933 | Nodes: 179
+Depth 46 | NPS: 11187 | Nodes: 179
+Depth 47 | NPS: 11187 | Nodes: 179
+Depth 48 | NPS: 11187 | Nodes: 179
+Depth 49 | NPS: 10529 | Nodes: 179
+Playing: (play 8 8 9 8)
+Depth 1 | NPS: 4500 | Nodes: 9
+Depth 2 | NPS: 10000 | Nodes: 20
+Depth 3 | NPS: 10000 | Nodes: 20
+Depth 4 | NPS: 10000 | Nodes: 20
+Depth 5 | NPS: 10000 | Nodes: 20
+Depth 6 | NPS: 10000 | Nodes: 20
+Depth 7 | NPS: 10000 | Nodes: 20
+Depth 8 | NPS: 10000 | Nodes: 20
+Depth 9 | NPS: 10000 | Nodes: 20
+Depth 10 | NPS: 10000 | Nodes: 20
+Depth 11 | NPS: 10000 | Nodes: 20
+Depth 12 | NPS: 10000 | Nodes: 20
+Depth 13 | NPS: 10000 | Nodes: 20
+Depth 14 | NPS: 10000 | Nodes: 20
+Depth 15 | NPS: 10000 | Nodes: 20
+Depth 16 | NPS: 10000 | Nodes: 20
+Depth 17 | NPS: 10000 | Nodes: 20
+Depth 18 | NPS: 10000 | Nodes: 20
+Depth 19 | NPS: 10000 | Nodes: 20
+Depth 20 | NPS: 10000 | Nodes: 20
+Depth 21 | NPS: 10000 | Nodes: 20
+Depth 22 | NPS: 10000 | Nodes: 20
+Depth 23 | NPS: 10000 | Nodes: 20
+Depth 24 | NPS: 10000 | Nodes: 20
+Depth 25 | NPS: 10000 | Nodes: 20
+Depth 26 | NPS: 10000 | Nodes: 20
+Depth 27 | NPS: 10000 | Nodes: 20
+Depth 28 | NPS: 10000 | Nodes: 20
+Depth 29 | NPS: 10000 | Nodes: 20
+Depth 30 | NPS: 10000 | Nodes: 20
+Depth 31 | NPS: 10000 | Nodes: 20
+Depth 32 | NPS: 10000 | Nodes: 20
+Depth 33 | NPS: 10000 | Nodes: 20
+Depth 34 | NPS: 10000 | Nodes: 20
+Depth 35 | NPS: 10000 | Nodes: 20
+Depth 36 | NPS: 10000 | Nodes: 20
+Depth 37 | NPS: 6666 | Nodes: 20
+Depth 38 | NPS: 6666 | Nodes: 20
+Depth 39 | NPS: 6666 | Nodes: 20
+Depth 40 | NPS: 6666 | Nodes: 20
+Depth 41 | NPS: 6666 | Nodes: 20
+Depth 42 | NPS: 6666 | Nodes: 20
+Depth 43 | NPS: 6666 | Nodes: 20
+Depth 44 | NPS: 6666 | Nodes: 20
+Depth 45 | NPS: 6666 | Nodes: 20
+Depth 46 | NPS: 6666 | Nodes: 20
+Depth 47 | NPS: 6666 | Nodes: 20
+Depth 48 | NPS: 6666 | Nodes: 20
+Depth 49 | NPS: 6666 | Nodes: 20
+Playing: (play 9 3 9 4)
+
+--- TOURNAMENT MATCH START: white (10x10) ---
+Depth 1 | NPS: 13333 | Nodes: 80
+Depth 2 | NPS: 34777 | Nodes: 1565
+Depth 3 | NPS: 44488 | Nodes: 76386
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 4 1 4 8)
+Depth 1 | NPS: 17000 | Nodes: 85
+Depth 2 | NPS: 34687 | Nodes: 1110
+Depth 3 | NPS: 45948 | Nodes: 46178
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 10 4 7 7)
+Depth 1 | NPS: 17750 | Nodes: 71
+Depth 2 | NPS: 38450 | Nodes: 769
+Depth 3 | NPS: 49740 | Nodes: 27556
+Depth 4 | NPS: 46851 | Nodes: 248170
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 1 7 4)
+Depth 1 | NPS: 26000 | Nodes: 78
+Depth 2 | NPS: 39642 | Nodes: 555
+Depth 3 | NPS: 53221 | Nodes: 17084
+Depth 4 | NPS: 50594 | Nodes: 193880
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 7 8 6)
+Depth 1 | NPS: 18250 | Nodes: 73
+Depth 2 | NPS: 42965 | Nodes: 1246
+Depth 3 | NPS: 57357 | Nodes: 36078
+Depth 4 | NPS: 55199 | Nodes: 500222
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 1 4 3 4)
+Depth 1 | NPS: 24666 | Nodes: 74
+Depth 2 | NPS: 49481 | Nodes: 1336
+Depth 3 | NPS: 59992 | Nodes: 31256
+Depth 4 | NPS: 59062 | Nodes: 404581
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 4 6 3)
+Depth 1 | NPS: 22000 | Nodes: 66
+Depth 2 | NPS: 49666 | Nodes: 596
+Depth 3 | NPS: 62787 | Nodes: 12432
+Depth 4 | NPS: 65541 | Nodes: 214582
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 8 6 9 5)
+Depth 1 | NPS: 14000 | Nodes: 70
+Depth 2 | NPS: 47823 | Nodes: 813
+Depth 3 | NPS: 66000 | Nodes: 10296
+Depth 4 | NPS: 67903 | Nodes: 145856
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 6 3 6 4)
+Depth 1 | NPS: 20000 | Nodes: 60
+Depth 2 | NPS: 61750 | Nodes: 741
+Depth 3 | NPS: 69712 | Nodes: 13106
+Depth 4 | NPS: 70754 | Nodes: 225211
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 6 4 8 2)
+Depth 1 | NPS: 19666 | Nodes: 59
+Depth 2 | NPS: 59368 | Nodes: 1128
+Depth 3 | NPS: 74340 | Nodes: 16801
+Depth 4 | NPS: 77254 | Nodes: 231144
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 3 4 2 4)
+Depth 1 | NPS: 18000 | Nodes: 54
+Depth 2 | NPS: 62642 | Nodes: 877
+Depth 3 | NPS: 81988 | Nodes: 14184
+Depth 4 | NPS: 79154 | Nodes: 109867
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 9 5 9 8)
+Depth 1 | NPS: 25000 | Nodes: 50
+Depth 2 | NPS: 76416 | Nodes: 917
+Depth 3 | NPS: 85776 | Nodes: 14582
+Depth 4 | NPS: 82968 | Nodes: 116405
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 9 8 7 8)
+Depth 1 | NPS: 15666 | Nodes: 47
+Depth 2 | NPS: 75909 | Nodes: 835
+Depth 3 | NPS: 89579 | Nodes: 11287
+Depth 4 | NPS: 96957 | Nodes: 120906
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 8 7 9)
+Depth 1 | NPS: 22000 | Nodes: 44
+Depth 2 | NPS: 59857 | Nodes: 419
+Depth 3 | NPS: 88357 | Nodes: 6185
+Depth 4 | NPS: 102594 | Nodes: 58171
+Depth 5 | NPS: 99640 | Nodes: 388796
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 7 9 4 9)
+Depth 1 | NPS: 12666 | Nodes: 38
+Depth 2 | NPS: 42750 | Nodes: 342
+Depth 3 | NPS: 103157 | Nodes: 5880
+Depth 4 | NPS: 104583 | Nodes: 30643
+Depth 5 | NPS: 114892 | Nodes: 269882
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 4 9 5 8)
+Depth 1 | NPS: 10333 | Nodes: 31
+Depth 2 | NPS: 50000 | Nodes: 250
+Depth 3 | NPS: 90800 | Nodes: 4086
+Depth 4 | NPS: 115911 | Nodes: 28862
+Depth 5 | NPS: 123603 | Nodes: 242880
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 5 8 6 7)
+Depth 1 | NPS: 10000 | Nodes: 30
+Depth 2 | NPS: 46625 | Nodes: 373
+Depth 3 | NPS: 88044 | Nodes: 3962
+Depth 4 | NPS: 125988 | Nodes: 43592
+Depth 5 | NPS: 118782 | Nodes: 217729
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 6 7 4 5)
+Depth 1 | NPS: 16500 | Nodes: 33
+Depth 2 | NPS: 91142 | Nodes: 638
+Depth 3 | NPS: 113500 | Nodes: 3178
+Depth 4 | NPS: 136892 | Nodes: 24093
+Depth 5 | NPS: 152376 | Nodes: 414463
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 4 5 4 6)
+Depth 1 | NPS: 8666 | Nodes: 26
+Depth 2 | NPS: 80600 | Nodes: 403
+Depth 3 | NPS: 125347 | Nodes: 5766
+Depth 4 | NPS: 137971 | Nodes: 28974
+Depth 5 | NPS: 162135 | Nodes: 332865
+Depth 6 | NPS: 130752 | Nodes: 857998
+Timeout caught at Depth 7. Corrupted search board discarded.
+Playing: (play 8 2 8 3)
+Depth 1 | NPS: 8000 | Nodes: 24
+Depth 2 | NPS: 68000 | Nodes: 272
+Depth 3 | NPS: 112272 | Nodes: 2470
+Depth 4 | NPS: 118478 | Nodes: 19312
+Depth 5 | NPS: 160637 | Nodes: 123209
+Depth 6 | NPS: 166661 | Nodes: 618813
+Timeout caught at Depth 7. Corrupted search board discarded.
+Playing: (play 4 8 3 9)
+Depth 1 | NPS: 11000 | Nodes: 22
+Depth 2 | NPS: 72333 | Nodes: 217
+Depth 3 | NPS: 134333 | Nodes: 2015
+Depth 4 | NPS: 151013 | Nodes: 11326
+Depth 5 | NPS: 166086 | Nodes: 61784
+Depth 6 | NPS: 189096 | Nodes: 361174
+Depth 7 | NPS: 174211 | Nodes: 1237596
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 8 3 6 1)
+Depth 1 | NPS: 8000 | Nodes: 16
+Depth 2 | NPS: 64500 | Nodes: 129
+Depth 3 | NPS: 119400 | Nodes: 597
+Depth 4 | NPS: 199130 | Nodes: 4580
+Depth 5 | NPS: 156348 | Nodes: 13915
+Depth 6 | NPS: 213738 | Nodes: 72030
+Depth 7 | NPS: 180127 | Nodes: 161214
+Depth 8 | NPS: 214404 | Nodes: 602690
+Depth 9 | NPS: 214001 | Nodes: 1695533
+Timeout caught at Depth 10. Corrupted search board discarded.
+Playing: (play 2 4 1 3)
+Depth 1 | NPS: 5000 | Nodes: 10
+Depth 2 | NPS: 34666 | Nodes: 104
+Depth 3 | NPS: 70800 | Nodes: 354
+Depth 4 | NPS: 143833 | Nodes: 1726
+Depth 5 | NPS: 141461 | Nodes: 3678
+Depth 6 | NPS: 209782 | Nodes: 16363
+Depth 7 | NPS: 204698 | Nodes: 42782
+Depth 8 | NPS: 248518 | Nodes: 187880
+Depth 9 | NPS: 219065 | Nodes: 434625
+Depth 10 | NPS: 229407 | Nodes: 1215170
+Timeout caught at Depth 11. Corrupted search board discarded.
+Playing: (play 1 3 1 2)
+Depth 1 | NPS: 4500 | Nodes: 9
+Depth 2 | NPS: 43000 | Nodes: 86
+Depth 3 | NPS: 84000 | Nodes: 252
+Depth 4 | NPS: 205250 | Nodes: 1642
+Depth 5 | NPS: 186857 | Nodes: 3924
+Depth 6 | NPS: 243536 | Nodes: 16804
+Depth 7 | NPS: 200738 | Nodes: 33724
+Depth 8 | NPS: 215689 | Nodes: 106119
+Depth 9 | NPS: 194854 | Nodes: 194660
+Depth 10 | NPS: 217267 | Nodes: 474078
+Depth 11 | NPS: 187393 | Nodes: 756693
+Depth 12 | NPS: 188435 | Nodes: 1385376
+Timeout caught at Depth 13. Corrupted search board discarded.
+Playing: (play 1 2 2 1)
+Depth 1 | NPS: 4500 | Nodes: 9
+Depth 2 | NPS: 37500 | Nodes: 75
+Depth 3 | NPS: 113000 | Nodes: 339
+Depth 4 | NPS: 210142 | Nodes: 1471
+Depth 5 | NPS: 179250 | Nodes: 2868
+Depth 6 | NPS: 200025 | Nodes: 7801
+Depth 7 | NPS: 205965 | Nodes: 17919
+Depth 8 | NPS: 206182 | Nodes: 37319
+Depth 9 | NPS: 194398 | Nodes: 67262
+Depth 10 | NPS: 185848 | Nodes: 111695
+Depth 11 | NPS: 177694 | Nodes: 183736
+Depth 12 | NPS: 161060 | Nodes: 254153
+Depth 13 | NPS: 166473 | Nodes: 408859
+Depth 14 | NPS: 161613 | Nodes: 595383
+Depth 15 | NPS: 164266 | Nodes: 910696
+Depth 16 | NPS: 115842 | Nodes: 841251
+Timeout caught at Depth 17. Corrupted search board discarded.
+Playing: (play 2 1 3 1)
+Depth 1 | NPS: 2333 | Nodes: 7
+Depth 2 | NPS: 13250 | Nodes: 53
+Depth 3 | NPS: 35800 | Nodes: 179
+Depth 4 | NPS: 89571 | Nodes: 627
+Depth 5 | NPS: 100916 | Nodes: 1211
+Depth 6 | NPS: 147260 | Nodes: 3387
+Depth 7 | NPS: 165297 | Nodes: 6116
+Depth 8 | NPS: 199453 | Nodes: 12765
+Depth 9 | NPS: 183742 | Nodes: 18558
+Depth 10 | NPS: 184519 | Nodes: 28416
+Depth 11 | NPS: 169255 | Nodes: 38421
+Depth 12 | NPS: 125152 | Nodes: 40299
+Depth 13 | NPS: 129710 | Nodes: 55516
+Depth 14 | NPS: 118491 | Nodes: 66829
+Depth 15 | NPS: 127192 | Nodes: 94631
+Depth 16 | NPS: 126906 | Nodes: 127541
+Depth 17 | NPS: 123847 | Nodes: 164841
+Depth 18 | NPS: 52091 | Nodes: 78033
+Depth 19 | NPS: 48158 | Nodes: 80136
+Depth 20 | NPS: 10660 | Nodes: 18101
+Depth 21 | NPS: 10444 | Nodes: 18101
+Depth 22 | NPS: 10238 | Nodes: 18101
+Depth 23 | NPS: 10044 | Nodes: 18101
+Depth 24 | NPS: 9853 | Nodes: 18101
+Depth 25 | NPS: 9664 | Nodes: 18101
+Depth 26 | NPS: 9481 | Nodes: 18101
+Depth 27 | NPS: 9306 | Nodes: 18101
+Depth 28 | NPS: 9137 | Nodes: 18101
+Depth 29 | NPS: 8983 | Nodes: 18101
+Depth 30 | NPS: 8825 | Nodes: 18101
+Depth 31 | NPS: 8677 | Nodes: 18101
+Depth 32 | NPS: 8534 | Nodes: 18101
+Depth 33 | NPS: 8399 | Nodes: 18101
+Depth 34 | NPS: 8257 | Nodes: 18101
+Depth 35 | NPS: 8127 | Nodes: 18101
+Depth 36 | NPS: 7998 | Nodes: 18101
+Depth 37 | NPS: 7880 | Nodes: 18101
+Depth 38 | NPS: 7762 | Nodes: 18101
+Depth 39 | NPS: 7653 | Nodes: 18101
+Depth 40 | NPS: 7542 | Nodes: 18101
+Depth 41 | NPS: 7439 | Nodes: 18101
+Depth 42 | NPS: 7340 | Nodes: 18101
+Depth 43 | NPS: 7228 | Nodes: 18101
+Depth 44 | NPS: 7140 | Nodes: 18101
+Depth 45 | NPS: 7048 | Nodes: 18101
+Depth 46 | NPS: 6940 | Nodes: 18101
+Depth 47 | NPS: 6846 | Nodes: 18101
+Depth 48 | NPS: 6756 | Nodes: 18101
+Depth 49 | NPS: 6674 | Nodes: 18101
+Playing: (play 4 6 5 6)
+Depth 1 | NPS: 2500 | Nodes: 5
+Depth 2 | NPS: 14000 | Nodes: 28
+Depth 3 | NPS: 28333 | Nodes: 85
+Depth 4 | NPS: 74666 | Nodes: 224
+Depth 5 | NPS: 118500 | Nodes: 474
+Depth 6 | NPS: 151500 | Nodes: 909
+Depth 7 | NPS: 135777 | Nodes: 1222
+Depth 8 | NPS: 143076 | Nodes: 1860
+Depth 9 | NPS: 139444 | Nodes: 2510
+Depth 10 | NPS: 140200 | Nodes: 3505
+Depth 11 | NPS: 109000 | Nodes: 3597
+Depth 12 | NPS: 113581 | Nodes: 4884
+Depth 13 | NPS: 118928 | Nodes: 6660
+Depth 14 | NPS: 133986 | Nodes: 10183
+Depth 15 | NPS: 136663 | Nodes: 14213
+Depth 16 | NPS: 29818 | Nodes: 3280
+Depth 17 | NPS: 28521 | Nodes: 3280
+Depth 18 | NPS: 27107 | Nodes: 3280
+Depth 19 | NPS: 25826 | Nodes: 3280
+Depth 20 | NPS: 24661 | Nodes: 3280
+Depth 21 | NPS: 23597 | Nodes: 3280
+Depth 22 | NPS: 22777 | Nodes: 3280
+Depth 23 | NPS: 21866 | Nodes: 3280
+Depth 24 | NPS: 21025 | Nodes: 3280
+Depth 25 | NPS: 20372 | Nodes: 3280
+Depth 26 | NPS: 19640 | Nodes: 3280
+Depth 27 | NPS: 18959 | Nodes: 3280
+Depth 28 | NPS: 18324 | Nodes: 3280
+Depth 29 | NPS: 17826 | Nodes: 3280
+Depth 30 | NPS: 17263 | Nodes: 3280
+Depth 31 | NPS: 16820 | Nodes: 3280
+Depth 32 | NPS: 16318 | Nodes: 3280
+Depth 33 | NPS: 15845 | Nodes: 3280
+Depth 34 | NPS: 15399 | Nodes: 3280
+Depth 35 | NPS: 14977 | Nodes: 3280
+Depth 36 | NPS: 14642 | Nodes: 3280
+Depth 37 | NPS: 14260 | Nodes: 3280
+Depth 38 | NPS: 13898 | Nodes: 3280
+Depth 39 | NPS: 13609 | Nodes: 3280
+Depth 40 | NPS: 13279 | Nodes: 3280
+Depth 41 | NPS: 12964 | Nodes: 3280
+Depth 42 | NPS: 12664 | Nodes: 3280
+Depth 43 | NPS: 12377 | Nodes: 3280
+Depth 44 | NPS: 12148 | Nodes: 3280
+Depth 45 | NPS: 11884 | Nodes: 3280
+Depth 46 | NPS: 11590 | Nodes: 3280
+Depth 47 | NPS: 11310 | Nodes: 3280
+Depth 48 | NPS: 11081 | Nodes: 3280
+Depth 49 | NPS: 10897 | Nodes: 3280
+Playing: (play 5 6 6 6)
+Depth 1 | NPS: 2000 | Nodes: 4
+Depth 2 | NPS: 8000 | Nodes: 16
+Depth 3 | NPS: 26000 | Nodes: 52
+Depth 4 | NPS: 58500 | Nodes: 117
+Depth 5 | NPS: 88000 | Nodes: 264
+Depth 6 | NPS: 105000 | Nodes: 420
+Depth 7 | NPS: 85800 | Nodes: 429
+Depth 8 | NPS: 94000 | Nodes: 564
+Depth 9 | NPS: 101571 | Nodes: 711
+Depth 10 | NPS: 107111 | Nodes: 964
+Depth 11 | NPS: 161615 | Nodes: 2101
+Depth 12 | NPS: 179750 | Nodes: 3595
+Depth 13 | NPS: 122307 | Nodes: 3180
+Depth 14 | NPS: 31607 | Nodes: 885
+Depth 15 | NPS: 30517 | Nodes: 885
+Depth 16 | NPS: 28548 | Nodes: 885
+Depth 17 | NPS: 26818 | Nodes: 885
+Depth 18 | NPS: 25285 | Nodes: 885
+Depth 19 | NPS: 24583 | Nodes: 885
+Depth 20 | NPS: 23289 | Nodes: 885
+Depth 21 | NPS: 22692 | Nodes: 885
+Depth 22 | NPS: 21585 | Nodes: 885
+Depth 23 | NPS: 20581 | Nodes: 885
+Depth 24 | NPS: 19666 | Nodes: 885
+Depth 25 | NPS: 19239 | Nodes: 885
+Depth 26 | NPS: 18437 | Nodes: 885
+Depth 27 | NPS: 17700 | Nodes: 885
+Depth 28 | NPS: 17352 | Nodes: 885
+Depth 29 | NPS: 16698 | Nodes: 885
+Depth 30 | NPS: 16388 | Nodes: 885
+Depth 31 | NPS: 15803 | Nodes: 885
+Depth 32 | NPS: 15526 | Nodes: 885
+Depth 33 | NPS: 15000 | Nodes: 885
+Depth 34 | NPS: 14750 | Nodes: 885
+Depth 35 | NPS: 14274 | Nodes: 885
+Depth 36 | NPS: 14047 | Nodes: 885
+Depth 37 | NPS: 13615 | Nodes: 885
+Depth 38 | NPS: 13208 | Nodes: 885
+Depth 39 | NPS: 13014 | Nodes: 885
+Depth 40 | NPS: 12642 | Nodes: 885
+Depth 41 | NPS: 12464 | Nodes: 885
+Depth 42 | NPS: 12123 | Nodes: 885
+Depth 43 | NPS: 11959 | Nodes: 885
+Depth 44 | NPS: 11644 | Nodes: 885
+Depth 45 | NPS: 11493 | Nodes: 885
+Depth 46 | NPS: 11202 | Nodes: 885
+Depth 47 | NPS: 11062 | Nodes: 885
+Depth 48 | NPS: 10792 | Nodes: 885
+Depth 49 | NPS: 10662 | Nodes: 885
+Playing: (play 6 6 7 5)
+Depth 1 | NPS: 1500 | Nodes: 3
+Depth 2 | NPS: 6500 | Nodes: 13
+Depth 3 | NPS: 15500 | Nodes: 31
+Depth 4 | NPS: 38000 | Nodes: 76
+Depth 5 | NPS: 35333 | Nodes: 106
+Depth 6 | NPS: 78000 | Nodes: 234
+Depth 7 | NPS: 71250 | Nodes: 285
+Depth 8 | NPS: 92000 | Nodes: 460
+Depth 9 | NPS: 105000 | Nodes: 630
+Depth 10 | NPS: 113875 | Nodes: 911
+Depth 11 | NPS: 144727 | Nodes: 1592
+Depth 12 | NPS: 85076 | Nodes: 1106
+Depth 13 | NPS: 69125 | Nodes: 1106
+Depth 14 | NPS: 61444 | Nodes: 1106
+Depth 15 | NPS: 55300 | Nodes: 1106
+Depth 16 | NPS: 50272 | Nodes: 1106
+Depth 17 | NPS: 48086 | Nodes: 1106
+Depth 18 | NPS: 40962 | Nodes: 1106
+Depth 19 | NPS: 38137 | Nodes: 1106
+Depth 20 | NPS: 34562 | Nodes: 1106
+Depth 21 | NPS: 32529 | Nodes: 1106
+Depth 22 | NPS: 30722 | Nodes: 1106
+Depth 23 | NPS: 28358 | Nodes: 1106
+Depth 24 | NPS: 26975 | Nodes: 1106
+Depth 25 | NPS: 25720 | Nodes: 1106
+Depth 26 | NPS: 24577 | Nodes: 1106
+Depth 27 | NPS: 23531 | Nodes: 1106
+Depth 28 | NPS: 22571 | Nodes: 1106
+Depth 29 | NPS: 21686 | Nodes: 1106
+Depth 30 | NPS: 20867 | Nodes: 1106
+Depth 31 | NPS: 20481 | Nodes: 1106
+Depth 32 | NPS: 19750 | Nodes: 1106
+Depth 33 | NPS: 19068 | Nodes: 1106
+Depth 34 | NPS: 18433 | Nodes: 1106
+Depth 35 | NPS: 17838 | Nodes: 1106
+Depth 36 | NPS: 17281 | Nodes: 1106
+Depth 37 | NPS: 16757 | Nodes: 1106
+Depth 38 | NPS: 16507 | Nodes: 1106
+Depth 39 | NPS: 16028 | Nodes: 1106
+Depth 40 | NPS: 15577 | Nodes: 1106
+Depth 41 | NPS: 15150 | Nodes: 1106
+Depth 42 | NPS: 14746 | Nodes: 1106
+Depth 43 | NPS: 14363 | Nodes: 1106
+Depth 44 | NPS: 14000 | Nodes: 1106
+Depth 45 | NPS: 13654 | Nodes: 1106
+Depth 46 | NPS: 13487 | Nodes: 1106
+Depth 47 | NPS: 13166 | Nodes: 1106
+Depth 48 | NPS: 12860 | Nodes: 1106
+Depth 49 | NPS: 12568 | Nodes: 1106
+Playing: (play 6 1 7 2)
+Depth 1 | NPS: 1000 | Nodes: 2
+Depth 2 | NPS: 5000 | Nodes: 10
+Depth 3 | NPS: 11500 | Nodes: 23
+Depth 4 | NPS: 41500 | Nodes: 83
+Depth 5 | NPS: 36333 | Nodes: 109
+Depth 6 | NPS: 71666 | Nodes: 215
+Depth 7 | NPS: 73400 | Nodes: 367
+Depth 8 | NPS: 103666 | Nodes: 622
+Depth 9 | NPS: 155875 | Nodes: 1247
+Depth 10 | NPS: 90777 | Nodes: 817
+Depth 11 | NPS: 74272 | Nodes: 817
+Depth 12 | NPS: 62846 | Nodes: 817
+Depth 13 | NPS: 54466 | Nodes: 817
+Depth 14 | NPS: 48058 | Nodes: 817
+Depth 15 | NPS: 45388 | Nodes: 817
+Depth 16 | NPS: 40850 | Nodes: 817
+Depth 17 | NPS: 38904 | Nodes: 817
+Depth 18 | NPS: 35521 | Nodes: 817
+Depth 19 | NPS: 34041 | Nodes: 817
+Depth 20 | NPS: 31423 | Nodes: 817
+Depth 21 | NPS: 30259 | Nodes: 817
+Depth 22 | NPS: 28172 | Nodes: 817
+Depth 23 | NPS: 27233 | Nodes: 817
+Depth 24 | NPS: 25531 | Nodes: 817
+Depth 25 | NPS: 24757 | Nodes: 817
+Depth 26 | NPS: 23342 | Nodes: 817
+Depth 27 | NPS: 22694 | Nodes: 817
+Depth 28 | NPS: 21500 | Nodes: 817
+Depth 29 | NPS: 20948 | Nodes: 817
+Depth 30 | NPS: 19926 | Nodes: 817
+Depth 31 | NPS: 19452 | Nodes: 817
+Depth 32 | NPS: 19000 | Nodes: 817
+Depth 33 | NPS: 18155 | Nodes: 817
+Depth 34 | NPS: 17760 | Nodes: 817
+Depth 35 | NPS: 17382 | Nodes: 817
+Depth 36 | NPS: 16673 | Nodes: 817
+Depth 37 | NPS: 16340 | Nodes: 817
+Depth 38 | NPS: 16019 | Nodes: 817
+Depth 39 | NPS: 15415 | Nodes: 817
+Depth 40 | NPS: 15129 | Nodes: 817
+Depth 41 | NPS: 14854 | Nodes: 817
+Depth 42 | NPS: 14333 | Nodes: 817
+Depth 43 | NPS: 14086 | Nodes: 817
+Depth 44 | NPS: 13616 | Nodes: 817
+Depth 45 | NPS: 13393 | Nodes: 817
+Depth 46 | NPS: 12968 | Nodes: 817
+Depth 47 | NPS: 12765 | Nodes: 817
+Depth 48 | NPS: 12569 | Nodes: 817
+Depth 49 | NPS: 12194 | Nodes: 817
+Playing: (play 7 2 8 1)
+Depth 1 | NPS: 2000 | Nodes: 4
+Depth 2 | NPS: 10000 | Nodes: 20
+Depth 3 | NPS: 20000 | Nodes: 40
+Depth 4 | NPS: 45000 | Nodes: 90
+Depth 5 | NPS: 73333 | Nodes: 220
+Depth 6 | NPS: 130666 | Nodes: 392
+Depth 7 | NPS: 122166 | Nodes: 733
+Depth 8 | NPS: 101000 | Nodes: 606
+Depth 9 | NPS: 86571 | Nodes: 606
+Depth 10 | NPS: 75750 | Nodes: 606
+Depth 11 | NPS: 67333 | Nodes: 606
+Depth 12 | NPS: 60600 | Nodes: 606
+Depth 13 | NPS: 55090 | Nodes: 606
+Depth 14 | NPS: 50500 | Nodes: 606
+Depth 15 | NPS: 46615 | Nodes: 606
+Depth 16 | NPS: 43285 | Nodes: 606
+Depth 17 | NPS: 40400 | Nodes: 606
+Depth 18 | NPS: 37875 | Nodes: 606
+Depth 19 | NPS: 35647 | Nodes: 606
+Depth 20 | NPS: 33666 | Nodes: 606
+Depth 21 | NPS: 31894 | Nodes: 606
+Depth 22 | NPS: 30300 | Nodes: 606
+Depth 23 | NPS: 28857 | Nodes: 606
+Depth 24 | NPS: 27545 | Nodes: 606
+Depth 25 | NPS: 26347 | Nodes: 606
+Depth 26 | NPS: 25250 | Nodes: 606
+Depth 27 | NPS: 24240 | Nodes: 606
+Depth 28 | NPS: 23307 | Nodes: 606
+Depth 29 | NPS: 22444 | Nodes: 606
+Depth 30 | NPS: 21642 | Nodes: 606
+Depth 31 | NPS: 20896 | Nodes: 606
+Depth 32 | NPS: 20200 | Nodes: 606
+Depth 33 | NPS: 19548 | Nodes: 606
+Depth 34 | NPS: 18937 | Nodes: 606
+Depth 35 | NPS: 18363 | Nodes: 606
+Depth 36 | NPS: 17823 | Nodes: 606
+Depth 37 | NPS: 17314 | Nodes: 606
+Depth 38 | NPS: 16833 | Nodes: 606
+Depth 39 | NPS: 16378 | Nodes: 606
+Depth 40 | NPS: 15947 | Nodes: 606
+Depth 41 | NPS: 15538 | Nodes: 606
+Depth 42 | NPS: 15150 | Nodes: 606
+Depth 43 | NPS: 14780 | Nodes: 606
+Depth 44 | NPS: 14428 | Nodes: 606
+Depth 45 | NPS: 14093 | Nodes: 606
+Depth 46 | NPS: 13772 | Nodes: 606
+Depth 47 | NPS: 13466 | Nodes: 606
+Depth 48 | NPS: 13173 | Nodes: 606
+Depth 49 | NPS: 12893 | Nodes: 606
+Playing: (play 8 1 9 1)
+Depth 1 | NPS: 5000 | Nodes: 5
+Depth 2 | NPS: 15000 | Nodes: 15
+Depth 3 | NPS: 29000 | Nodes: 58
+Depth 4 | NPS: 60500 | Nodes: 121
+Depth 5 | NPS: 110500 | Nodes: 221
+Depth 6 | NPS: 101000 | Nodes: 202
+Depth 7 | NPS: 67333 | Nodes: 202
+Depth 8 | NPS: 67333 | Nodes: 202
+Depth 9 | NPS: 67333 | Nodes: 202
+Depth 10 | NPS: 50500 | Nodes: 202
+Depth 11 | NPS: 50500 | Nodes: 202
+Depth 12 | NPS: 50500 | Nodes: 202
+Depth 13 | NPS: 40400 | Nodes: 202
+Depth 14 | NPS: 40400 | Nodes: 202
+Depth 15 | NPS: 40400 | Nodes: 202
+Depth 16 | NPS: 33666 | Nodes: 202
+Depth 17 | NPS: 33666 | Nodes: 202
+Depth 18 | NPS: 33666 | Nodes: 202
+Depth 19 | NPS: 33666 | Nodes: 202
+Depth 20 | NPS: 28857 | Nodes: 202
+Depth 21 | NPS: 28857 | Nodes: 202
+Depth 22 | NPS: 28857 | Nodes: 202
+Depth 23 | NPS: 25250 | Nodes: 202
+Depth 24 | NPS: 25250 | Nodes: 202
+Depth 25 | NPS: 25250 | Nodes: 202
+Depth 26 | NPS: 22444 | Nodes: 202
+Depth 27 | NPS: 22444 | Nodes: 202
+Depth 28 | NPS: 22444 | Nodes: 202
+Depth 29 | NPS: 20200 | Nodes: 202
+Depth 30 | NPS: 20200 | Nodes: 202
+Depth 31 | NPS: 20200 | Nodes: 202
+Depth 32 | NPS: 18363 | Nodes: 202
+Depth 33 | NPS: 18363 | Nodes: 202
+Depth 34 | NPS: 18363 | Nodes: 202
+Depth 35 | NPS: 16833 | Nodes: 202
+Depth 36 | NPS: 16833 | Nodes: 202
+Depth 37 | NPS: 16833 | Nodes: 202
+Depth 38 | NPS: 15538 | Nodes: 202
+Depth 39 | NPS: 15538 | Nodes: 202
+Depth 40 | NPS: 15538 | Nodes: 202
+Depth 41 | NPS: 15538 | Nodes: 202
+Depth 42 | NPS: 14428 | Nodes: 202
+Depth 43 | NPS: 14428 | Nodes: 202
+Depth 44 | NPS: 14428 | Nodes: 202
+Depth 45 | NPS: 13466 | Nodes: 202
+Depth 46 | NPS: 13466 | Nodes: 202
+Depth 47 | NPS: 13466 | Nodes: 202
+Depth 48 | NPS: 12625 | Nodes: 202
+Depth 49 | NPS: 12625 | Nodes: 202
+Playing: (play 9 1 9 2)
+Depth 1 | NPS: 2500 | Nodes: 5
+Depth 2 | NPS: 12500 | Nodes: 25
+Depth 3 | NPS: 24000 | Nodes: 48
+Depth 4 | NPS: 23500 | Nodes: 47
+Depth 5 | NPS: 23500 | Nodes: 47
+Depth 6 | NPS: 23500 | Nodes: 47
+Depth 7 | NPS: 23500 | Nodes: 47
+Depth 8 | NPS: 23500 | Nodes: 47
+Depth 9 | NPS: 23500 | Nodes: 47
+Depth 10 | NPS: 15666 | Nodes: 47
+Depth 11 | NPS: 15666 | Nodes: 47
+Depth 12 | NPS: 15666 | Nodes: 47
+Depth 13 | NPS: 15666 | Nodes: 47
+Depth 14 | NPS: 15666 | Nodes: 47
+Depth 15 | NPS: 15666 | Nodes: 47
+Depth 16 | NPS: 15666 | Nodes: 47
+Depth 17 | NPS: 15666 | Nodes: 47
+Depth 18 | NPS: 15666 | Nodes: 47
+Depth 19 | NPS: 15666 | Nodes: 47
+Depth 20 | NPS: 15666 | Nodes: 47
+Depth 21 | NPS: 15666 | Nodes: 47
+Depth 22 | NPS: 15666 | Nodes: 47
+Depth 23 | NPS: 15666 | Nodes: 47
+Depth 24 | NPS: 11750 | Nodes: 47
+Depth 25 | NPS: 11750 | Nodes: 47
+Depth 26 | NPS: 11750 | Nodes: 47
+Depth 27 | NPS: 11750 | Nodes: 47
+Depth 28 | NPS: 11750 | Nodes: 47
+Depth 29 | NPS: 11750 | Nodes: 47
+Depth 30 | NPS: 11750 | Nodes: 47
+Depth 31 | NPS: 11750 | Nodes: 47
+Depth 32 | NPS: 11750 | Nodes: 47
+Depth 33 | NPS: 11750 | Nodes: 47
+Depth 34 | NPS: 11750 | Nodes: 47
+Depth 35 | NPS: 11750 | Nodes: 47
+Depth 36 | NPS: 11750 | Nodes: 47
+Depth 37 | NPS: 11750 | Nodes: 47
+Depth 38 | NPS: 11750 | Nodes: 47
+Depth 39 | NPS: 9400 | Nodes: 47
+Depth 40 | NPS: 9400 | Nodes: 47
+Depth 41 | NPS: 9400 | Nodes: 47
+Depth 42 | NPS: 9400 | Nodes: 47
+Depth 43 | NPS: 9400 | Nodes: 47
+Depth 44 | NPS: 9400 | Nodes: 47
+Depth 45 | NPS: 9400 | Nodes: 47
+Depth 46 | NPS: 9400 | Nodes: 47
+Depth 47 | NPS: 9400 | Nodes: 47
+Depth 48 | NPS: 9400 | Nodes: 47
+Depth 49 | NPS: 9400 | Nodes: 47
+Playing: (play 9 2 9 3)
+Depth 1 | NPS: 1500 | Nodes: 3
+Depth 2 | NPS: 3500 | Nodes: 7
+Depth 3 | NPS: 3500 | Nodes: 7
+Depth 4 | NPS: 3500 | Nodes: 7
+Depth 5 | NPS: 3500 | Nodes: 7
+Depth 6 | NPS: 3500 | Nodes: 7
+Depth 7 | NPS: 3500 | Nodes: 7
+Depth 8 | NPS: 3500 | Nodes: 7
+Depth 9 | NPS: 3500 | Nodes: 7
+Depth 10 | NPS: 3500 | Nodes: 7
+Depth 11 | NPS: 3500 | Nodes: 7
+Depth 12 | NPS: 3500 | Nodes: 7
+Depth 13 | NPS: 3500 | Nodes: 7
+Depth 14 | NPS: 3500 | Nodes: 7
+Depth 15 | NPS: 3500 | Nodes: 7
+Depth 16 | NPS: 3500 | Nodes: 7
+Depth 17 | NPS: 3500 | Nodes: 7
+Depth 18 | NPS: 3500 | Nodes: 7
+Depth 19 | NPS: 3500 | Nodes: 7
+Depth 20 | NPS: 3500 | Nodes: 7
+Depth 21 | NPS: 3500 | Nodes: 7
+Depth 22 | NPS: 3500 | Nodes: 7
+Depth 23 | NPS: 3500 | Nodes: 7
+Depth 24 | NPS: 3500 | Nodes: 7
+Depth 25 | NPS: 3500 | Nodes: 7
+Depth 26 | NPS: 3500 | Nodes: 7
+Depth 27 | NPS: 3500 | Nodes: 7
+Depth 28 | NPS: 3500 | Nodes: 7
+Depth 29 | NPS: 3500 | Nodes: 7
+Depth 30 | NPS: 3500 | Nodes: 7
+Depth 31 | NPS: 3500 | Nodes: 7
+Depth 32 | NPS: 3500 | Nodes: 7
+Depth 33 | NPS: 3500 | Nodes: 7
+Depth 34 | NPS: 3500 | Nodes: 7
+Depth 35 | NPS: 3500 | Nodes: 7
+Depth 36 | NPS: 3500 | Nodes: 7
+Depth 37 | NPS: 2333 | Nodes: 7
+Depth 38 | NPS: 2333 | Nodes: 7
+Depth 39 | NPS: 2333 | Nodes: 7
+Depth 40 | NPS: 2333 | Nodes: 7
+Depth 41 | NPS: 2333 | Nodes: 7
+Depth 42 | NPS: 2333 | Nodes: 7
+Depth 43 | NPS: 2333 | Nodes: 7
+Depth 44 | NPS: 2333 | Nodes: 7
+Depth 45 | NPS: 2333 | Nodes: 7
+Depth 46 | NPS: 2333 | Nodes: 7
+Depth 47 | NPS: 2333 | Nodes: 7
+Depth 48 | NPS: 2333 | Nodes: 7
+Depth 49 | NPS: 2333 | Nodes: 7
+Playing: (play 9 3 9 4)
+
+--- TOURNAMENT MATCH START: white (10x10) ---
+Depth 1 | NPS: 20000 | Nodes: 80
+Depth 2 | NPS: 32604 | Nodes: 1565
+Depth 3 | NPS: 39455 | Nodes: 76386
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 4 1 4 8)
+Depth 1 | NPS: 16000 | Nodes: 80
+Depth 2 | NPS: 27842 | Nodes: 1058
+Depth 3 | NPS: 43842 | Nodes: 39414
+Depth 4 | NPS: 40020 | Nodes: 305078
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 1 3 5)
+Depth 1 | NPS: 26666 | Nodes: 80
+Depth 2 | NPS: 33714 | Nodes: 472
+Depth 3 | NPS: 47438 | Nodes: 21964
+Depth 4 | NPS: 42464 | Nodes: 144760
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 10 4 8 6)
+Depth 1 | NPS: 13166 | Nodes: 79
+Depth 2 | NPS: 22421 | Nodes: 426
+Depth 3 | NPS: 47209 | Nodes: 20772
+Depth 4 | NPS: 45595 | Nodes: 179967
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 3 5 5 5)
+Depth 1 | NPS: 25666 | Nodes: 77
+Depth 2 | NPS: 39055 | Nodes: 703
+Depth 3 | NPS: 54054 | Nodes: 17838
+Depth 4 | NPS: 51519 | Nodes: 150437
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 8 4 9)
+Depth 1 | NPS: 25666 | Nodes: 77
+Depth 2 | NPS: 47785 | Nodes: 669
+Depth 3 | NPS: 53568 | Nodes: 12053
+Depth 4 | NPS: 55646 | Nodes: 113965
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 1 4 3 2)
+Depth 1 | NPS: 26333 | Nodes: 79
+Depth 2 | NPS: 50476 | Nodes: 1060
+Depth 3 | NPS: 62929 | Nodes: 32157
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 3 2 5 2)
+Depth 1 | NPS: 25666 | Nodes: 77
+Depth 2 | NPS: 56466 | Nodes: 1694
+Depth 3 | NPS: 65981 | Nodes: 43614
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 5 2 5 3)
+Depth 1 | NPS: 22666 | Nodes: 68
+Depth 2 | NPS: 45739 | Nodes: 1052
+Depth 3 | NPS: 68700 | Nodes: 25213
+Depth 4 | NPS: 71972 | Nodes: 485236
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 5 3 4 2)
+Depth 1 | NPS: 14500 | Nodes: 58
+Depth 2 | NPS: 43900 | Nodes: 439
+Depth 3 | NPS: 74820 | Nodes: 16236
+Depth 4 | NPS: 68263 | Nodes: 96525
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 2 4 5)
+Depth 1 | NPS: 19333 | Nodes: 58
+Depth 2 | NPS: 52687 | Nodes: 843
+Depth 3 | NPS: 78388 | Nodes: 12699
+Depth 4 | NPS: 79168 | Nodes: 128490
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 5 5 6)
+Depth 1 | NPS: 16666 | Nodes: 50
+Depth 2 | NPS: 68285 | Nodes: 956
+Depth 3 | NPS: 79725 | Nodes: 18018
+Depth 4 | NPS: 80870 | Nodes: 134488
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 5 6 9 2)
+Depth 1 | NPS: 25500 | Nodes: 51
+Depth 2 | NPS: 76076 | Nodes: 989
+Depth 3 | NPS: 88633 | Nodes: 13561
+Depth 4 | NPS: 88041 | Nodes: 120176
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 9 2 9)
+Depth 1 | NPS: 23500 | Nodes: 47
+Depth 2 | NPS: 81875 | Nodes: 655
+Depth 3 | NPS: 100390 | Nodes: 12348
+Depth 4 | NPS: 93914 | Nodes: 81706
+Depth 5 | NPS: 95865 | Nodes: 594460
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 2 9 2 7)
+Depth 1 | NPS: 13666 | Nodes: 41
+Depth 2 | NPS: 63500 | Nodes: 508
+Depth 3 | NPS: 86241 | Nodes: 5347
+Depth 4 | NPS: 96701 | Nodes: 31718
+Depth 5 | NPS: 108355 | Nodes: 341210
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 5 5 7 7)
+Depth 1 | NPS: 10000 | Nodes: 30
+Depth 2 | NPS: 41800 | Nodes: 209
+Depth 3 | NPS: 96520 | Nodes: 2413
+Depth 4 | NPS: 108210 | Nodes: 16989
+Depth 5 | NPS: 113975 | Nodes: 132211
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 7 7 8 7)
+Depth 1 | NPS: 10333 | Nodes: 31
+Depth 2 | NPS: 39600 | Nodes: 198
+Depth 3 | NPS: 103296 | Nodes: 2789
+Depth 4 | NPS: 114028 | Nodes: 15736
+Depth 5 | NPS: 128740 | Nodes: 141614
+Depth 6 | NPS: 129588 | Nodes: 956880
+Timeout caught at Depth 7. Corrupted search board discarded.
+Playing: (play 8 7 8 9)
+Depth 1 | NPS: 8333 | Nodes: 25
+Depth 2 | NPS: 27500 | Nodes: 110
+Depth 3 | NPS: 98300 | Nodes: 983
+Depth 4 | NPS: 116085 | Nodes: 5456
+Depth 5 | NPS: 135946 | Nodes: 30452
+Depth 6 | NPS: 138290 | Nodes: 135110
+Depth 7 | NPS: 136367 | Nodes: 501558
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 2 7 3 6)
+Depth 1 | NPS: 7666 | Nodes: 23
+Depth 2 | NPS: 43000 | Nodes: 172
+Depth 3 | NPS: 112357 | Nodes: 1573
+Depth 4 | NPS: 133285 | Nodes: 7464
+Depth 5 | NPS: 129682 | Nodes: 24121
+Depth 6 | NPS: 148873 | Nodes: 128776
+Depth 7 | NPS: 171934 | Nodes: 753931
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 8 6 8 5)
+Depth 1 | NPS: 6666 | Nodes: 20
+Depth 2 | NPS: 40750 | Nodes: 163
+Depth 3 | NPS: 88428 | Nodes: 619
+Depth 4 | NPS: 142027 | Nodes: 5113
+Depth 5 | NPS: 147596 | Nodes: 17564
+Depth 6 | NPS: 176552 | Nodes: 111758
+Depth 7 | NPS: 178249 | Nodes: 480738
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 8 5 7 4)
+Depth 1 | NPS: 6000 | Nodes: 18
+Depth 2 | NPS: 36000 | Nodes: 108
+Depth 3 | NPS: 104125 | Nodes: 833
+Depth 4 | NPS: 138942 | Nodes: 4863
+Depth 5 | NPS: 179097 | Nodes: 34924
+Depth 6 | NPS: 181336 | Nodes: 179704
+Depth 7 | NPS: 201314 | Nodes: 995098
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 7 4 7 3)
+Depth 1 | NPS: 8000 | Nodes: 16
+Depth 2 | NPS: 58500 | Nodes: 117
+Depth 3 | NPS: 139571 | Nodes: 977
+Depth 4 | NPS: 157617 | Nodes: 5359
+Depth 5 | NPS: 207734 | Nodes: 37600
+Depth 6 | NPS: 192014 | Nodes: 156108
+Depth 7 | NPS: 221892 | Nodes: 865604
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 8 9 9 8)
+Depth 1 | NPS: 8000 | Nodes: 16
+Depth 2 | NPS: 33000 | Nodes: 66
+Depth 3 | NPS: 130000 | Nodes: 650
+Depth 4 | NPS: 155266 | Nodes: 2329
+Depth 5 | NPS: 222941 | Nodes: 15160
+Depth 6 | NPS: 225804 | Nodes: 71580
+Depth 7 | NPS: 248667 | Nodes: 362309
+Depth 8 | NPS: 237980 | Nodes: 1326026
+Timeout caught at Depth 9. Corrupted search board discarded.
+Playing: (play 9 8 7 8)
+Depth 1 | NPS: 5000 | Nodes: 10
+Depth 2 | NPS: 30500 | Nodes: 61
+Depth 3 | NPS: 88750 | Nodes: 355
+Depth 4 | NPS: 182090 | Nodes: 2003
+Depth 5 | NPS: 220688 | Nodes: 9931
+Depth 6 | NPS: 223596 | Nodes: 35999
+Depth 7 | NPS: 243132 | Nodes: 150742
+Depth 8 | NPS: 239818 | Nodes: 495226
+Depth 9 | NPS: 267507 | Nodes: 2064356
+Timeout caught at Depth 10. Corrupted search board discarded.
+Playing: (play 9 2 9 1)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 22500 | Nodes: 45
+Depth 3 | NPS: 103333 | Nodes: 310
+Depth 4 | NPS: 220285 | Nodes: 1542
+Depth 5 | NPS: 249708 | Nodes: 5993
+Depth 6 | NPS: 283321 | Nodes: 23799
+Depth 7 | NPS: 260572 | Nodes: 60974
+Depth 8 | NPS: 281313 | Nodes: 221394
+Depth 9 | NPS: 258927 | Nodes: 516301
+Depth 10 | NPS: 291420 | Nodes: 1618840
+Timeout caught at Depth 11. Corrupted search board discarded.
+Playing: (play 7 8 8 8)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 20000 | Nodes: 40
+Depth 3 | NPS: 87333 | Nodes: 262
+Depth 4 | NPS: 191833 | Nodes: 1151
+Depth 5 | NPS: 263550 | Nodes: 5271
+Depth 6 | NPS: 238850 | Nodes: 16003
+Depth 7 | NPS: 289475 | Nodes: 54132
+Depth 8 | NPS: 282157 | Nodes: 132332
+Depth 9 | NPS: 298709 | Nodes: 392205
+Depth 10 | NPS: 262428 | Nodes: 822187
+Depth 11 | NPS: -252810 | Nodes: 2313184
+Timeout caught at Depth 12. Corrupted search board discarded.
+Playing: (play 8 8 9 7)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 21000 | Nodes: 42
+Depth 3 | NPS: 99333 | Nodes: 298
+Depth 4 | NPS: 217400 | Nodes: 1087
+Depth 5 | NPS: 291533 | Nodes: 4373
+Depth 6 | NPS: 281128 | Nodes: 10964
+Depth 7 | NPS: 297050 | Nodes: 35646
+Depth 8 | NPS: 267180 | Nodes: 69467
+Depth 9 | NPS: 294511 | Nodes: 192905
+Depth 10 | NPS: 249803 | Nodes: 325744
+Depth 11 | NPS: 276199 | Nodes: 786892
+Depth 12 | NPS: 213251 | Nodes: 1038109
+Depth 13 | NPS: -222320 | Nodes: 2266296
+Timeout caught at Depth 14. Corrupted search board discarded.
+Playing: (play 9 7 10 8)
+Depth 1 | NPS: 2500 | Nodes: 5
+Depth 2 | NPS: 7000 | Nodes: 21
+Depth 3 | NPS: 36000 | Nodes: 108
+Depth 4 | NPS: 97000 | Nodes: 291
+Depth 5 | NPS: 159600 | Nodes: 798
+Depth 6 | NPS: 234250 | Nodes: 1874
+Depth 7 | NPS: 225352 | Nodes: 3831
+Depth 8 | NPS: 202607 | Nodes: 5673
+Depth 9 | NPS: 222196 | Nodes: 11332
+Depth 10 | NPS: 166760 | Nodes: 12507
+Depth 11 | NPS: 193250 | Nodes: 23190
+Depth 12 | NPS: 145982 | Nodes: 24671
+Depth 13 | NPS: 193338 | Nodes: 52008
+Depth 14 | NPS: 11627 | Nodes: 3186
+Depth 15 | NPS: 11378 | Nodes: 3186
+Depth 16 | NPS: 11178 | Nodes: 3186
+Depth 17 | NPS: 10986 | Nodes: 3186
+Depth 18 | NPS: 10800 | Nodes: 3186
+Depth 19 | NPS: 10620 | Nodes: 3186
+Depth 20 | NPS: 10445 | Nodes: 3186
+Depth 21 | NPS: 10277 | Nodes: 3186
+Depth 22 | NPS: 10114 | Nodes: 3186
+Depth 23 | NPS: 9956 | Nodes: 3186
+Depth 24 | NPS: 9803 | Nodes: 3186
+Depth 25 | NPS: 9654 | Nodes: 3186
+Depth 26 | NPS: 9454 | Nodes: 3186
+Depth 27 | NPS: 9315 | Nodes: 3186
+Depth 28 | NPS: 9181 | Nodes: 3186
+Depth 29 | NPS: 9051 | Nodes: 3186
+Depth 30 | NPS: 8899 | Nodes: 3186
+Depth 31 | NPS: 8776 | Nodes: 3186
+Depth 32 | NPS: 8657 | Nodes: 3186
+Depth 33 | NPS: 8541 | Nodes: 3186
+Depth 34 | NPS: 8428 | Nodes: 3186
+Depth 35 | NPS: 8318 | Nodes: 3186
+Depth 36 | NPS: 8211 | Nodes: 3186
+Depth 37 | NPS: 8106 | Nodes: 3186
+Depth 38 | NPS: 7984 | Nodes: 3186
+Depth 39 | NPS: 7886 | Nodes: 3186
+Depth 40 | NPS: 7789 | Nodes: 3186
+Depth 41 | NPS: 7695 | Nodes: 3186
+Depth 42 | NPS: 7585 | Nodes: 3186
+Depth 43 | NPS: 7496 | Nodes: 3186
+Depth 44 | NPS: 7409 | Nodes: 3186
+Depth 45 | NPS: 7324 | Nodes: 3186
+Depth 46 | NPS: 7240 | Nodes: 3186
+Depth 47 | NPS: 7159 | Nodes: 3186
+Depth 48 | NPS: 7080 | Nodes: 3186
+Depth 49 | NPS: 7002 | Nodes: 3186
+Playing: (play 7 3 6 4)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 13000 | Nodes: 26
+Depth 3 | NPS: 57000 | Nodes: 114
+Depth 4 | NPS: 73000 | Nodes: 219
+Depth 5 | NPS: 153000 | Nodes: 612
+Depth 6 | NPS: 181833 | Nodes: 1091
+Depth 7 | NPS: 222222 | Nodes: 2000
+Depth 8 | NPS: 182375 | Nodes: 2918
+Depth 9 | NPS: 210038 | Nodes: 5461
+Depth 10 | NPS: 162743 | Nodes: 6347
+Depth 11 | NPS: 220761 | Nodes: 14791
+Depth 12 | NPS: 139209 | Nodes: 11972
+Depth 13 | NPS: 110851 | Nodes: 11972
+Depth 14 | NPS: 90696 | Nodes: 11972
+Depth 15 | NPS: 79284 | Nodes: 11972
+Depth 16 | NPS: 70423 | Nodes: 11972
+Depth 17 | NPS: 63680 | Nodes: 11972
+Depth 18 | NPS: 57835 | Nodes: 11972
+Depth 19 | NPS: 52973 | Nodes: 11972
+Depth 20 | NPS: 48469 | Nodes: 11972
+Depth 21 | NPS: 45007 | Nodes: 11972
+Depth 22 | NPS: 42007 | Nodes: 11972
+Depth 23 | NPS: 39381 | Nodes: 11972
+Depth 24 | NPS: 37065 | Nodes: 11972
+Depth 25 | NPS: 35005 | Nodes: 11972
+Depth 26 | NPS: 33163 | Nodes: 11972
+Depth 27 | NPS: 31588 | Nodes: 11972
+Depth 28 | NPS: 30005 | Nodes: 11972
+Depth 29 | NPS: 28504 | Nodes: 11972
+Depth 30 | NPS: 27271 | Nodes: 11972
+Depth 31 | NPS: 26082 | Nodes: 11972
+Depth 32 | NPS: 25098 | Nodes: 11972
+Depth 33 | NPS: 24137 | Nodes: 11972
+Depth 34 | NPS: 23201 | Nodes: 11972
+Depth 35 | NPS: 22419 | Nodes: 11972
+Depth 36 | NPS: 21688 | Nodes: 11972
+Depth 37 | NPS: 20966 | Nodes: 11972
+Depth 38 | NPS: 20291 | Nodes: 11972
+Depth 39 | NPS: 19626 | Nodes: 11972
+Depth 40 | NPS: 19033 | Nodes: 11972
+Depth 41 | NPS: 18475 | Nodes: 11972
+Depth 42 | NPS: 17922 | Nodes: 11972
+Depth 43 | NPS: 17451 | Nodes: 11972
+Depth 44 | NPS: 16981 | Nodes: 11972
+Depth 45 | NPS: 16535 | Nodes: 11972
+Depth 46 | NPS: 16134 | Nodes: 11972
+Depth 47 | NPS: 15711 | Nodes: 11972
+Depth 48 | NPS: 15289 | Nodes: 11972
+Depth 49 | NPS: 14946 | Nodes: 11972
+Playing: (play 6 4 6 5)
+Depth 1 | NPS: 6000 | Nodes: 6
+Depth 2 | NPS: 12000 | Nodes: 24
+Depth 3 | NPS: 35500 | Nodes: 71
+Depth 4 | NPS: 94500 | Nodes: 189
+Depth 5 | NPS: 142333 | Nodes: 427
+Depth 6 | NPS: 211250 | Nodes: 845
+Depth 7 | NPS: 197714 | Nodes: 1384
+Depth 8 | NPS: 182727 | Nodes: 2010
+Depth 9 | NPS: 209684 | Nodes: 3984
+Depth 10 | NPS: 125791 | Nodes: 3019
+Depth 11 | NPS: 100633 | Nodes: 3019
+Depth 12 | NPS: 86257 | Nodes: 3019
+Depth 13 | NPS: 75475 | Nodes: 3019
+Depth 14 | NPS: 67088 | Nodes: 3019
+Depth 15 | NPS: 61612 | Nodes: 3019
+Depth 16 | NPS: 55907 | Nodes: 3019
+Depth 17 | NPS: 51169 | Nodes: 3019
+Depth 18 | NPS: 47920 | Nodes: 3019
+Depth 19 | NPS: 44397 | Nodes: 3019
+Depth 20 | NPS: 41356 | Nodes: 3019
+Depth 21 | NPS: 38705 | Nodes: 3019
+Depth 22 | NPS: 36817 | Nodes: 3019
+Depth 23 | NPS: 34701 | Nodes: 3019
+Depth 24 | NPS: 32815 | Nodes: 3019
+Depth 25 | NPS: 31123 | Nodes: 3019
+Depth 26 | NPS: 29598 | Nodes: 3019
+Depth 27 | NPS: 28481 | Nodes: 3019
+Depth 28 | NPS: 27198 | Nodes: 3019
+Depth 29 | NPS: 26025 | Nodes: 3019
+Depth 30 | NPS: 25158 | Nodes: 3019
+Depth 31 | NPS: 24152 | Nodes: 3019
+Depth 32 | NPS: 23223 | Nodes: 3019
+Depth 33 | NPS: 22529 | Nodes: 3019
+Depth 34 | NPS: 21719 | Nodes: 3019
+Depth 35 | NPS: 20965 | Nodes: 3019
+Depth 36 | NPS: 20126 | Nodes: 3019
+Depth 37 | NPS: 19477 | Nodes: 3019
+Depth 38 | NPS: 18987 | Nodes: 3019
+Depth 39 | NPS: 18408 | Nodes: 3019
+Depth 40 | NPS: 17863 | Nodes: 3019
+Depth 41 | NPS: 17450 | Nodes: 3019
+Depth 42 | NPS: 16960 | Nodes: 3019
+Depth 43 | NPS: 16497 | Nodes: 3019
+Depth 44 | NPS: 16144 | Nodes: 3019
+Depth 45 | NPS: 15723 | Nodes: 3019
+Depth 46 | NPS: 15324 | Nodes: 3019
+Depth 47 | NPS: 14945 | Nodes: 3019
+Depth 48 | NPS: 14584 | Nodes: 3019
+Depth 49 | NPS: 14240 | Nodes: 3019
+Playing: (play 6 5 6 6)
+Depth 1 | NPS: 2500 | Nodes: 5
+Depth 2 | NPS: 11000 | Nodes: 22
+Depth 3 | NPS: 31000 | Nodes: 62
+Depth 4 | NPS: 72500 | Nodes: 145
+Depth 5 | NPS: 88000 | Nodes: 264
+Depth 6 | NPS: 108000 | Nodes: 432
+Depth 7 | NPS: 165800 | Nodes: 829
+Depth 8 | NPS: 106166 | Nodes: 637
+Depth 9 | NPS: 79625 | Nodes: 637
+Depth 10 | NPS: 70777 | Nodes: 637
+Depth 11 | NPS: 63700 | Nodes: 637
+Depth 12 | NPS: 57909 | Nodes: 637
+Depth 13 | NPS: 53083 | Nodes: 637
+Depth 14 | NPS: 45500 | Nodes: 637
+Depth 15 | NPS: 42466 | Nodes: 637
+Depth 16 | NPS: 39812 | Nodes: 637
+Depth 17 | NPS: 37470 | Nodes: 637
+Depth 18 | NPS: 35388 | Nodes: 637
+Depth 19 | NPS: 33526 | Nodes: 637
+Depth 20 | NPS: 31850 | Nodes: 637
+Depth 21 | NPS: 30333 | Nodes: 637
+Depth 22 | NPS: 27695 | Nodes: 637
+Depth 23 | NPS: 26541 | Nodes: 637
+Depth 24 | NPS: 26541 | Nodes: 637
+Depth 25 | NPS: 25480 | Nodes: 637
+Depth 26 | NPS: 24500 | Nodes: 637
+Depth 27 | NPS: 23592 | Nodes: 637
+Depth 28 | NPS: 22750 | Nodes: 637
+Depth 29 | NPS: 21965 | Nodes: 637
+Depth 30 | NPS: 21233 | Nodes: 637
+Depth 31 | NPS: 20548 | Nodes: 637
+Depth 32 | NPS: 19906 | Nodes: 637
+Depth 33 | NPS: 19303 | Nodes: 637
+Depth 34 | NPS: 18735 | Nodes: 637
+Depth 35 | NPS: 18200 | Nodes: 637
+Depth 36 | NPS: 17694 | Nodes: 637
+Depth 37 | NPS: 17216 | Nodes: 637
+Depth 38 | NPS: 16333 | Nodes: 637
+Depth 39 | NPS: 15925 | Nodes: 637
+Depth 40 | NPS: 15536 | Nodes: 637
+Depth 41 | NPS: 15166 | Nodes: 637
+Depth 42 | NPS: 14813 | Nodes: 637
+Depth 43 | NPS: 14477 | Nodes: 637
+Depth 44 | NPS: 14155 | Nodes: 637
+Depth 45 | NPS: 13847 | Nodes: 637
+Depth 46 | NPS: 13553 | Nodes: 637
+Depth 47 | NPS: 13270 | Nodes: 637
+Depth 48 | NPS: 13000 | Nodes: 637
+Depth 49 | NPS: 12740 | Nodes: 637
+Playing: (play 3 6 3 7)
+Depth 1 | NPS: 1500 | Nodes: 3
+Depth 2 | NPS: 6000 | Nodes: 12
+Depth 3 | NPS: 10500 | Nodes: 21
+Depth 4 | NPS: 19000 | Nodes: 38
+Depth 5 | NPS: 16666 | Nodes: 50
+Depth 6 | NPS: 21000 | Nodes: 63
+Depth 7 | NPS: 21000 | Nodes: 63
+Depth 8 | NPS: 21000 | Nodes: 63
+Depth 9 | NPS: 21000 | Nodes: 63
+Depth 10 | NPS: 21000 | Nodes: 63
+Depth 11 | NPS: 21000 | Nodes: 63
+Depth 12 | NPS: 21000 | Nodes: 63
+Depth 13 | NPS: 21000 | Nodes: 63
+Depth 14 | NPS: 21000 | Nodes: 63
+Depth 15 | NPS: 21000 | Nodes: 63
+Depth 16 | NPS: 21000 | Nodes: 63
+Depth 17 | NPS: 21000 | Nodes: 63
+Depth 18 | NPS: 15750 | Nodes: 63
+Depth 19 | NPS: 15750 | Nodes: 63
+Depth 20 | NPS: 15750 | Nodes: 63
+Depth 21 | NPS: 15750 | Nodes: 63
+Depth 22 | NPS: 15750 | Nodes: 63
+Depth 23 | NPS: 15750 | Nodes: 63
+Depth 24 | NPS: 15750 | Nodes: 63
+Depth 25 | NPS: 15750 | Nodes: 63
+Depth 26 | NPS: 15750 | Nodes: 63
+Depth 27 | NPS: 15750 | Nodes: 63
+Depth 28 | NPS: 15750 | Nodes: 63
+Depth 29 | NPS: 15750 | Nodes: 63
+Depth 30 | NPS: 15750 | Nodes: 63
+Depth 31 | NPS: 12600 | Nodes: 63
+Depth 32 | NPS: 12600 | Nodes: 63
+Depth 33 | NPS: 12600 | Nodes: 63
+Depth 34 | NPS: 12600 | Nodes: 63
+Depth 35 | NPS: 12600 | Nodes: 63
+Depth 36 | NPS: 12600 | Nodes: 63
+Depth 37 | NPS: 12600 | Nodes: 63
+Depth 38 | NPS: 12600 | Nodes: 63
+Depth 39 | NPS: 12600 | Nodes: 63
+Depth 40 | NPS: 12600 | Nodes: 63
+Depth 41 | NPS: 12600 | Nodes: 63
+Depth 42 | NPS: 10500 | Nodes: 63
+Depth 43 | NPS: 10500 | Nodes: 63
+Depth 44 | NPS: 10500 | Nodes: 63
+Depth 45 | NPS: 10500 | Nodes: 63
+Depth 46 | NPS: 10500 | Nodes: 63
+Depth 47 | NPS: 10500 | Nodes: 63
+Depth 48 | NPS: 10500 | Nodes: 63
+Depth 49 | NPS: 10500 | Nodes: 63
+Playing: (play 6 6 7 6)
+Depth 1 | NPS: 1000 | Nodes: 2
+Depth 2 | NPS: 3000 | Nodes: 6
+Depth 3 | NPS: 5500 | Nodes: 11
+Depth 4 | NPS: 8000 | Nodes: 16
+Depth 5 | NPS: 8000 | Nodes: 16
+Depth 6 | NPS: 8000 | Nodes: 16
+Depth 7 | NPS: 8000 | Nodes: 16
+Depth 8 | NPS: 8000 | Nodes: 16
+Depth 9 | NPS: 8000 | Nodes: 16
+Depth 10 | NPS: 8000 | Nodes: 16
+Depth 11 | NPS: 8000 | Nodes: 16
+Depth 12 | NPS: 8000 | Nodes: 16
+Depth 13 | NPS: 8000 | Nodes: 16
+Depth 14 | NPS: 8000 | Nodes: 16
+Depth 15 | NPS: 8000 | Nodes: 16
+Depth 16 | NPS: 8000 | Nodes: 16
+Depth 17 | NPS: 8000 | Nodes: 16
+Depth 18 | NPS: 8000 | Nodes: 16
+Depth 19 | NPS: 8000 | Nodes: 16
+Depth 20 | NPS: 8000 | Nodes: 16
+Depth 21 | NPS: 8000 | Nodes: 16
+Depth 22 | NPS: 8000 | Nodes: 16
+Depth 23 | NPS: 8000 | Nodes: 16
+Depth 24 | NPS: 8000 | Nodes: 16
+Depth 25 | NPS: 8000 | Nodes: 16
+Depth 26 | NPS: 8000 | Nodes: 16
+Depth 27 | NPS: 8000 | Nodes: 16
+Depth 28 | NPS: 8000 | Nodes: 16
+Depth 29 | NPS: 8000 | Nodes: 16
+Depth 30 | NPS: 8000 | Nodes: 16
+Depth 31 | NPS: 8000 | Nodes: 16
+Depth 32 | NPS: 8000 | Nodes: 16
+Depth 33 | NPS: 8000 | Nodes: 16
+Depth 34 | NPS: 8000 | Nodes: 16
+Depth 35 | NPS: 8000 | Nodes: 16
+Depth 36 | NPS: 8000 | Nodes: 16
+Depth 37 | NPS: 5333 | Nodes: 16
+Depth 38 | NPS: 5333 | Nodes: 16
+Depth 39 | NPS: 5333 | Nodes: 16
+Depth 40 | NPS: 5333 | Nodes: 16
+Depth 41 | NPS: 5333 | Nodes: 16
+Depth 42 | NPS: 5333 | Nodes: 16
+Depth 43 | NPS: 5333 | Nodes: 16
+Depth 44 | NPS: 5333 | Nodes: 16
+Depth 45 | NPS: 5333 | Nodes: 16
+Depth 46 | NPS: 5333 | Nodes: 16
+Depth 47 | NPS: 5333 | Nodes: 16
+Depth 48 | NPS: 5333 | Nodes: 16
+Depth 49 | NPS: 5333 | Nodes: 16
+Playing: (play 9 1 10 1)
+Depth 1 | NPS: 1000 | Nodes: 2
+Depth 2 | NPS: 2000 | Nodes: 4
+Depth 3 | NPS: 2000 | Nodes: 4
+Depth 4 | NPS: 2000 | Nodes: 4
+Depth 5 | NPS: 2000 | Nodes: 4
+Depth 6 | NPS: 2000 | Nodes: 4
+Depth 7 | NPS: 2000 | Nodes: 4
+Depth 8 | NPS: 2000 | Nodes: 4
+Depth 9 | NPS: 2000 | Nodes: 4
+Depth 10 | NPS: 2000 | Nodes: 4
+Depth 11 | NPS: 2000 | Nodes: 4
+Depth 12 | NPS: 2000 | Nodes: 4
+Depth 13 | NPS: 2000 | Nodes: 4
+Depth 14 | NPS: 2000 | Nodes: 4
+Depth 15 | NPS: 2000 | Nodes: 4
+Depth 16 | NPS: 2000 | Nodes: 4
+Depth 17 | NPS: 2000 | Nodes: 4
+Depth 18 | NPS: 2000 | Nodes: 4
+Depth 19 | NPS: 2000 | Nodes: 4
+Depth 20 | NPS: 2000 | Nodes: 4
+Depth 21 | NPS: 2000 | Nodes: 4
+Depth 22 | NPS: 2000 | Nodes: 4
+Depth 23 | NPS: 2000 | Nodes: 4
+Depth 24 | NPS: 2000 | Nodes: 4
+Depth 25 | NPS: 2000 | Nodes: 4
+Depth 26 | NPS: 2000 | Nodes: 4
+Depth 27 | NPS: 2000 | Nodes: 4
+Depth 28 | NPS: 2000 | Nodes: 4
+Depth 29 | NPS: 2000 | Nodes: 4
+Depth 30 | NPS: 2000 | Nodes: 4
+Depth 31 | NPS: 2000 | Nodes: 4
+Depth 32 | NPS: 2000 | Nodes: 4
+Depth 33 | NPS: 2000 | Nodes: 4
+Depth 34 | NPS: 2000 | Nodes: 4
+Depth 35 | NPS: 2000 | Nodes: 4
+Depth 36 | NPS: 2000 | Nodes: 4
+Depth 37 | NPS: 2000 | Nodes: 4
+Depth 38 | NPS: 2000 | Nodes: 4
+Depth 39 | NPS: 2000 | Nodes: 4
+Depth 40 | NPS: 2000 | Nodes: 4
+Depth 41 | NPS: 2000 | Nodes: 4
+Depth 42 | NPS: 2000 | Nodes: 4
+Depth 43 | NPS: 2000 | Nodes: 4
+Depth 44 | NPS: 2000 | Nodes: 4
+Depth 45 | NPS: 2000 | Nodes: 4
+Depth 46 | NPS: 2000 | Nodes: 4
+Depth 47 | NPS: 2000 | Nodes: 4
+Depth 48 | NPS: 2000 | Nodes: 4
+Depth 49 | NPS: 2000 | Nodes: 4
+Playing: (play 10 1 10 2)
+
+--- TOURNAMENT MATCH START: white (10x10) ---
+Depth 1 | NPS: 16000 | Nodes: 80
+Depth 2 | NPS: 33297 | Nodes: 1565
+Depth 3 | NPS: 41536 | Nodes: 76386
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 4 1 4 8)
+Depth 1 | NPS: 20000 | Nodes: 80
+Depth 2 | NPS: 34129 | Nodes: 1058
+Depth 3 | NPS: 44087 | Nodes: 39414
+Depth 4 | NPS: 40338 | Nodes: 305078
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 7 1 3 5)
+Depth 1 | NPS: 20000 | Nodes: 80
+Depth 2 | NPS: 31466 | Nodes: 472
+Depth 3 | NPS: 46337 | Nodes: 21964
+Depth 4 | NPS: 42069 | Nodes: 144760
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 10 4 8 6)
+Depth 1 | NPS: 19750 | Nodes: 79
+Depth 2 | NPS: 35500 | Nodes: 426
+Depth 3 | NPS: 50911 | Nodes: 20772
+Depth 4 | NPS: 45263 | Nodes: 179967
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 3 5 5 5)
+Depth 1 | NPS: 19250 | Nodes: 77
+Depth 2 | NPS: 41352 | Nodes: 703
+Depth 3 | NPS: 53089 | Nodes: 17838
+Depth 4 | NPS: 49813 | Nodes: 150437
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 8 4 9)
+Depth 1 | NPS: 15400 | Nodes: 77
+Depth 2 | NPS: 31857 | Nodes: 669
+Depth 3 | NPS: 49600 | Nodes: 12053
+Depth 4 | NPS: 51335 | Nodes: 113965
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 1 4 3 2)
+Depth 1 | NPS: 19750 | Nodes: 79
+Depth 2 | NPS: 48181 | Nodes: 1060
+Depth 3 | NPS: 62806 | Nodes: 32157
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 3 2 5 2)
+Depth 1 | NPS: 19250 | Nodes: 77
+Depth 2 | NPS: 51333 | Nodes: 1694
+Depth 3 | NPS: 65388 | Nodes: 43614
+Timeout caught at Depth 4. Corrupted search board discarded.
+Playing: (play 5 2 5 3)
+Depth 1 | NPS: 34000 | Nodes: 68
+Depth 2 | NPS: 45739 | Nodes: 1052
+Depth 3 | NPS: 68143 | Nodes: 25213
+Depth 4 | NPS: 71421 | Nodes: 485236
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 5 3 4 2)
+Depth 1 | NPS: 19333 | Nodes: 58
+Depth 2 | NPS: 48777 | Nodes: 439
+Depth 3 | NPS: 76225 | Nodes: 16236
+Depth 4 | NPS: 67594 | Nodes: 96525
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 2 4 5)
+Depth 1 | NPS: 19333 | Nodes: 58
+Depth 2 | NPS: 60214 | Nodes: 843
+Depth 3 | NPS: 71342 | Nodes: 12699
+Depth 4 | NPS: 78443 | Nodes: 128490
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 5 5 6)
+Depth 1 | NPS: 16666 | Nodes: 50
+Depth 2 | NPS: 73538 | Nodes: 956
+Depth 3 | NPS: 83032 | Nodes: 18018
+Depth 4 | NPS: 81606 | Nodes: 134488
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 5 6 9 2)
+Depth 1 | NPS: 12750 | Nodes: 51
+Depth 2 | NPS: 58176 | Nodes: 989
+Depth 3 | NPS: 73701 | Nodes: 13561
+Depth 4 | NPS: 71405 | Nodes: 120176
+Timeout caught at Depth 5. Corrupted search board discarded.
+Playing: (play 4 9 2 9)
+Depth 1 | NPS: 15666 | Nodes: 47
+Depth 2 | NPS: 54583 | Nodes: 655
+Depth 3 | NPS: 98000 | Nodes: 12348
+Depth 4 | NPS: 88426 | Nodes: 81706
+Depth 5 | NPS: 93468 | Nodes: 594460
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 2 9 2 7)
+Depth 1 | NPS: 20500 | Nodes: 41
+Depth 2 | NPS: 72571 | Nodes: 508
+Depth 3 | NPS: 100886 | Nodes: 5347
+Depth 4 | NPS: 104335 | Nodes: 31718
+Depth 5 | NPS: 114346 | Nodes: 341210
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 5 5 7 7)
+Depth 1 | NPS: 10000 | Nodes: 30
+Depth 2 | NPS: 41800 | Nodes: 209
+Depth 3 | NPS: 92807 | Nodes: 2413
+Depth 4 | NPS: 111039 | Nodes: 16989
+Depth 5 | NPS: 119539 | Nodes: 132211
+Timeout caught at Depth 6. Corrupted search board discarded.
+Playing: (play 7 7 8 7)
+Depth 1 | NPS: 15500 | Nodes: 31
+Depth 2 | NPS: 49500 | Nodes: 198
+Depth 3 | NPS: 116208 | Nodes: 2789
+Depth 4 | NPS: 112400 | Nodes: 15736
+Depth 5 | NPS: 132473 | Nodes: 141614
+Depth 6 | NPS: 133140 | Nodes: 956880
+Timeout caught at Depth 7. Corrupted search board discarded.
+Playing: (play 8 7 8 9)
+Depth 1 | NPS: 12500 | Nodes: 25
+Depth 2 | NPS: 36666 | Nodes: 110
+Depth 3 | NPS: 122875 | Nodes: 983
+Depth 4 | NPS: 129904 | Nodes: 5456
+Depth 5 | NPS: 141637 | Nodes: 30452
+Depth 6 | NPS: 143887 | Nodes: 135110
+Depth 7 | NPS: 137000 | Nodes: 501558
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 2 7 3 6)
+Depth 1 | NPS: 11500 | Nodes: 23
+Depth 2 | NPS: 57333 | Nodes: 172
+Depth 3 | NPS: 143000 | Nodes: 1573
+Depth 4 | NPS: 138222 | Nodes: 7464
+Depth 5 | NPS: 129682 | Nodes: 24121
+Depth 6 | NPS: 155151 | Nodes: 128776
+Depth 7 | NPS: 173039 | Nodes: 753931
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 8 6 8 5)
+Depth 1 | NPS: 6666 | Nodes: 20
+Depth 2 | NPS: 40750 | Nodes: 163
+Depth 3 | NPS: 88428 | Nodes: 619
+Depth 4 | NPS: 159781 | Nodes: 5113
+Depth 5 | NPS: 155433 | Nodes: 17564
+Depth 6 | NPS: 181720 | Nodes: 111758
+Depth 7 | NPS: 179513 | Nodes: 480738
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 8 5 7 4)
+Depth 1 | NPS: 9000 | Nodes: 18
+Depth 2 | NPS: 36000 | Nodes: 108
+Depth 3 | NPS: 119000 | Nodes: 833
+Depth 4 | NPS: 147363 | Nodes: 4863
+Depth 5 | NPS: 172891 | Nodes: 34924
+Depth 6 | NPS: 182997 | Nodes: 179704
+Depth 7 | NPS: 200220 | Nodes: 995098
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 7 4 7 3)
+Depth 1 | NPS: 5333 | Nodes: 16
+Depth 2 | NPS: 29250 | Nodes: 117
+Depth 3 | NPS: 108555 | Nodes: 977
+Depth 4 | NPS: 167468 | Nodes: 5359
+Depth 5 | NPS: 205464 | Nodes: 37600
+Depth 6 | NPS: 198106 | Nodes: 156108
+Depth 7 | NPS: 228150 | Nodes: 865604
+Timeout caught at Depth 8. Corrupted search board discarded.
+Playing: (play 8 9 9 8)
+Depth 1 | NPS: 8000 | Nodes: 16
+Depth 2 | NPS: 33000 | Nodes: 66
+Depth 3 | NPS: 130000 | Nodes: 650
+Depth 4 | NPS: 166357 | Nodes: 2329
+Depth 5 | NPS: 219710 | Nodes: 15160
+Depth 6 | NPS: 233159 | Nodes: 71580
+Depth 7 | NPS: 247647 | Nodes: 362309
+Depth 8 | NPS: 234032 | Nodes: 1326026
+Timeout caught at Depth 9. Corrupted search board discarded.
+Playing: (play 9 8 7 8)
+Depth 1 | NPS: 5000 | Nodes: 10
+Depth 2 | NPS: 30500 | Nodes: 61
+Depth 3 | NPS: 88750 | Nodes: 355
+Depth 4 | NPS: 166916 | Nodes: 2003
+Depth 5 | NPS: 206895 | Nodes: 9931
+Depth 6 | NPS: 215562 | Nodes: 35999
+Depth 7 | NPS: 239273 | Nodes: 150742
+Depth 8 | NPS: 233267 | Nodes: 495226
+Depth 9 | NPS: 265000 | Nodes: 2064356
+Timeout caught at Depth 10. Corrupted search board discarded.
+Playing: (play 9 2 9 1)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 22500 | Nodes: 45
+Depth 3 | NPS: 103333 | Nodes: 310
+Depth 4 | NPS: 192750 | Nodes: 1542
+Depth 5 | NPS: 249708 | Nodes: 5993
+Depth 6 | NPS: 283321 | Nodes: 23799
+Depth 7 | NPS: 266262 | Nodes: 60974
+Depth 8 | NPS: 292462 | Nodes: 221394
+Depth 9 | NPS: 266546 | Nodes: 516301
+Depth 10 | NPS: 294174 | Nodes: 1618840
+Timeout caught at Depth 11. Corrupted search board discarded.
+Playing: (play 7 8 8 8)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 20000 | Nodes: 40
+Depth 3 | NPS: 87333 | Nodes: 262
+Depth 4 | NPS: 191833 | Nodes: 1151
+Depth 5 | NPS: 263550 | Nodes: 5271
+Depth 6 | NPS: 271237 | Nodes: 16003
+Depth 7 | NPS: 300733 | Nodes: 54132
+Depth 8 | NPS: 273413 | Nodes: 132332
+Depth 9 | NPS: 293786 | Nodes: 392205
+Depth 10 | NPS: 265907 | Nodes: 822187
+Depth 11 | NPS: -250509 | Nodes: 2313184
+Timeout caught at Depth 12. Corrupted search board discarded.
+Playing: (play 8 8 9 7)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 21000 | Nodes: 42
+Depth 3 | NPS: 74500 | Nodes: 298
+Depth 4 | NPS: 135875 | Nodes: 1087
+Depth 5 | NPS: 218650 | Nodes: 4373
+Depth 6 | NPS: 233276 | Nodes: 10964
+Depth 7 | NPS: 297050 | Nodes: 35646
+Depth 8 | NPS: 269251 | Nodes: 69467
+Depth 9 | NPS: 302358 | Nodes: 192905
+Depth 10 | NPS: 253103 | Nodes: 325744
+Depth 11 | NPS: 281334 | Nodes: 786892
+Depth 12 | NPS: 214618 | Nodes: 1038109
+Depth 13 | NPS: -222930 | Nodes: 2266296
+Timeout caught at Depth 14. Corrupted search board discarded.
+Playing: (play 9 7 10 8)
+Depth 1 | NPS: 2500 | Nodes: 5
+Depth 2 | NPS: 10500 | Nodes: 21
+Depth 3 | NPS: 54000 | Nodes: 108
+Depth 4 | NPS: 97000 | Nodes: 291
+Depth 5 | NPS: 199500 | Nodes: 798
+Depth 6 | NPS: 208222 | Nodes: 1874
+Depth 7 | NPS: 212833 | Nodes: 3831
+Depth 8 | NPS: 195620 | Nodes: 5673
+Depth 9 | NPS: 226640 | Nodes: 11332
+Depth 10 | NPS: 171328 | Nodes: 12507
+Depth 11 | NPS: 201652 | Nodes: 23190
+Depth 12 | NPS: 154193 | Nodes: 24671
+Depth 13 | NPS: 202365 | Nodes: 52008
+Depth 14 | NPS: 12114 | Nodes: 3186
+Depth 15 | NPS: 11888 | Nodes: 3186
+Depth 16 | NPS: 11670 | Nodes: 3186
+Depth 17 | NPS: 11419 | Nodes: 3186
+Depth 18 | NPS: 11218 | Nodes: 3186
+Depth 19 | NPS: 11024 | Nodes: 3186
+Depth 20 | NPS: 10763 | Nodes: 3186
+Depth 21 | NPS: 10584 | Nodes: 3186
+Depth 22 | NPS: 10377 | Nodes: 3186
+Depth 23 | NPS: 10178 | Nodes: 3186
+Depth 24 | NPS: 10018 | Nodes: 3186
+Depth 25 | NPS: 9833 | Nodes: 3186
+Depth 26 | NPS: 9683 | Nodes: 3186
+Depth 27 | NPS: 9510 | Nodes: 3186
+Depth 28 | NPS: 9370 | Nodes: 3186
+Depth 29 | NPS: 9234 | Nodes: 3186
+Depth 30 | NPS: 9076 | Nodes: 3186
+Depth 31 | NPS: 8949 | Nodes: 3186
+Depth 32 | NPS: 8801 | Nodes: 3186
+Depth 33 | NPS: 8681 | Nodes: 3186
+Depth 34 | NPS: 8541 | Nodes: 3186
+Depth 35 | NPS: 8428 | Nodes: 3186
+Depth 36 | NPS: 8296 | Nodes: 3186
+Depth 37 | NPS: 8190 | Nodes: 3186
+Depth 38 | NPS: 8086 | Nodes: 3186
+Depth 39 | NPS: 7965 | Nodes: 3186
+Depth 40 | NPS: 7866 | Nodes: 3186
+Depth 41 | NPS: 7770 | Nodes: 3186
+Depth 42 | NPS: 7658 | Nodes: 3186
+Depth 43 | NPS: 7567 | Nodes: 3186
+Depth 44 | NPS: 7478 | Nodes: 3186
+Depth 45 | NPS: 7375 | Nodes: 3186
+Depth 46 | NPS: 7290 | Nodes: 3186
+Depth 47 | NPS: 7208 | Nodes: 3186
+Depth 48 | NPS: 7111 | Nodes: 3186
+Depth 49 | NPS: 7033 | Nodes: 3186
+Playing: (play 7 3 6 4)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 13000 | Nodes: 26
+Depth 3 | NPS: 38000 | Nodes: 114
+Depth 4 | NPS: 73000 | Nodes: 219
+Depth 5 | NPS: 153000 | Nodes: 612
+Depth 6 | NPS: 155857 | Nodes: 1091
+Depth 7 | NPS: 200000 | Nodes: 2000
+Depth 8 | NPS: 182375 | Nodes: 2918
+Depth 9 | NPS: 202259 | Nodes: 5461
+Depth 10 | NPS: 154804 | Nodes: 6347
+Depth 11 | NPS: 214362 | Nodes: 14791
+Depth 12 | NPS: 133022 | Nodes: 11972
+Depth 13 | NPS: 107855 | Nodes: 11972
+Depth 14 | NPS: 90015 | Nodes: 11972
+Depth 15 | NPS: 78248 | Nodes: 11972
+Depth 16 | NPS: 69604 | Nodes: 11972
+Depth 17 | NPS: 62354 | Nodes: 11972
+Depth 18 | NPS: 56471 | Nodes: 11972
+Depth 19 | NPS: 51603 | Nodes: 11972
+Depth 20 | NPS: 47507 | Nodes: 11972
+Depth 21 | NPS: 44014 | Nodes: 11972
+Depth 22 | NPS: 40860 | Nodes: 11972
+Depth 23 | NPS: 37529 | Nodes: 11972
+Depth 24 | NPS: 35005 | Nodes: 11972
+Depth 25 | NPS: 33071 | Nodes: 11972
+Depth 26 | NPS: 31258 | Nodes: 11972
+Depth 27 | NPS: 29855 | Nodes: 11972
+Depth 28 | NPS: 28437 | Nodes: 11972
+Depth 29 | NPS: 27209 | Nodes: 11972
+Depth 30 | NPS: 26082 | Nodes: 11972
+Depth 31 | NPS: 24993 | Nodes: 11972
+Depth 32 | NPS: 23991 | Nodes: 11972
+Depth 33 | NPS: 23023 | Nodes: 11972
+Depth 34 | NPS: 22170 | Nodes: 11972
+Depth 35 | NPS: 21378 | Nodes: 11972
+Depth 36 | NPS: 20641 | Nodes: 11972
+Depth 37 | NPS: 19953 | Nodes: 11972
+Depth 38 | NPS: 19309 | Nodes: 11972
+Depth 39 | NPS: 18706 | Nodes: 11972
+Depth 40 | NPS: 18166 | Nodes: 11972
+Depth 41 | NPS: 17580 | Nodes: 11972
+Depth 42 | NPS: 17078 | Nodes: 11972
+Depth 43 | NPS: 16604 | Nodes: 11972
+Depth 44 | NPS: 16156 | Nodes: 11972
+Depth 45 | NPS: 15731 | Nodes: 11972
+Depth 46 | NPS: 15329 | Nodes: 11972
+Depth 47 | NPS: 14965 | Nodes: 11972
+Depth 48 | NPS: 14600 | Nodes: 11972
+Depth 49 | NPS: 14252 | Nodes: 11972
+Playing: (play 6 4 6 5)
+Depth 1 | NPS: 3000 | Nodes: 6
+Depth 2 | NPS: 12000 | Nodes: 24
+Depth 3 | NPS: 35500 | Nodes: 71
+Depth 4 | NPS: 94500 | Nodes: 189
+Depth 5 | NPS: 142333 | Nodes: 427
+Depth 6 | NPS: 211250 | Nodes: 845
+Depth 7 | NPS: 197714 | Nodes: 1384
+Depth 8 | NPS: 167500 | Nodes: 2010
+Depth 9 | NPS: 209684 | Nodes: 3984
+Depth 10 | NPS: 111814 | Nodes: 3019
+Depth 11 | NPS: 94343 | Nodes: 3019
+Depth 12 | NPS: 81594 | Nodes: 3019
+Depth 13 | NPS: 70209 | Nodes: 3019
+Depth 14 | NPS: 64234 | Nodes: 3019
+Depth 15 | NPS: 58057 | Nodes: 3019
+Depth 16 | NPS: 52051 | Nodes: 3019
+Depth 17 | NPS: 47920 | Nodes: 3019
+Depth 18 | NPS: 44397 | Nodes: 3019
+Depth 19 | NPS: 41356 | Nodes: 3019
+Depth 20 | NPS: 39207 | Nodes: 3019
+Depth 21 | NPS: 36817 | Nodes: 3019
+Depth 22 | NPS: 34701 | Nodes: 3019
+Depth 23 | NPS: 32815 | Nodes: 3019
+Depth 24 | NPS: 31123 | Nodes: 3019
+Depth 25 | NPS: 29598 | Nodes: 3019
+Depth 26 | NPS: 28214 | Nodes: 3019
+Depth 27 | NPS: 26955 | Nodes: 3019
+Depth 28 | NPS: 25803 | Nodes: 3019
+Depth 29 | NPS: 24745 | Nodes: 3019
+Depth 30 | NPS: 23771 | Nodes: 3019
+Depth 31 | NPS: 22871 | Nodes: 3019
+Depth 32 | NPS: 22036 | Nodes: 3019
+Depth 33 | NPS: 21111 | Nodes: 3019
+Depth 34 | NPS: 20398 | Nodes: 3019
+Depth 35 | NPS: 19732 | Nodes: 3019
+Depth 36 | NPS: 19107 | Nodes: 3019
+Depth 37 | NPS: 18521 | Nodes: 3019
+Depth 38 | NPS: 17970 | Nodes: 3019
+Depth 39 | NPS: 17450 | Nodes: 3019
+Depth 40 | NPS: 17056 | Nodes: 3019
+Depth 41 | NPS: 16497 | Nodes: 3019
+Depth 42 | NPS: 16058 | Nodes: 3019
+Depth 43 | NPS: 15642 | Nodes: 3019
+Depth 44 | NPS: 15247 | Nodes: 3019
+Depth 45 | NPS: 14945 | Nodes: 3019
+Depth 46 | NPS: 14584 | Nodes: 3019
+Depth 47 | NPS: 14173 | Nodes: 3019
+Depth 48 | NPS: 13848 | Nodes: 3019
+Depth 49 | NPS: 13599 | Nodes: 3019
+Playing: (play 6 5 6 6)
+Depth 1 | NPS: 2500 | Nodes: 5
+Depth 2 | NPS: 11000 | Nodes: 22
+Depth 3 | NPS: 31000 | Nodes: 62
+Depth 4 | NPS: 72500 | Nodes: 145
+Depth 5 | NPS: 88000 | Nodes: 264
+Depth 6 | NPS: 144000 | Nodes: 432
+Depth 7 | NPS: 165800 | Nodes: 829
+Depth 8 | NPS: 106166 | Nodes: 637
+Depth 9 | NPS: 91000 | Nodes: 637
+Depth 10 | NPS: 79625 | Nodes: 637
+Depth 11 | NPS: 70777 | Nodes: 637
+Depth 12 | NPS: 63700 | Nodes: 637
+Depth 13 | NPS: 57909 | Nodes: 637
+Depth 14 | NPS: 53083 | Nodes: 637
+Depth 15 | NPS: 49000 | Nodes: 637
+Depth 16 | NPS: 45500 | Nodes: 637
+Depth 17 | NPS: 42466 | Nodes: 637
+Depth 18 | NPS: 39812 | Nodes: 637
+Depth 19 | NPS: 37470 | Nodes: 637
+Depth 20 | NPS: 35388 | Nodes: 637
+Depth 21 | NPS: 33526 | Nodes: 637
+Depth 22 | NPS: 31850 | Nodes: 637
+Depth 23 | NPS: 30333 | Nodes: 637
+Depth 24 | NPS: 28954 | Nodes: 637
+Depth 25 | NPS: 27695 | Nodes: 637
+Depth 26 | NPS: 26541 | Nodes: 637
+Depth 27 | NPS: 25480 | Nodes: 637
+Depth 28 | NPS: 24500 | Nodes: 637
+Depth 29 | NPS: 23592 | Nodes: 637
+Depth 30 | NPS: 22750 | Nodes: 637
+Depth 31 | NPS: 21965 | Nodes: 637
+Depth 32 | NPS: 21233 | Nodes: 637
+Depth 33 | NPS: 20548 | Nodes: 637
+Depth 34 | NPS: 19906 | Nodes: 637
+Depth 35 | NPS: 19303 | Nodes: 637
+Depth 36 | NPS: 18735 | Nodes: 637
+Depth 37 | NPS: 18200 | Nodes: 637
+Depth 38 | NPS: 17694 | Nodes: 637
+Depth 39 | NPS: 17216 | Nodes: 637
+Depth 40 | NPS: 16763 | Nodes: 637
+Depth 41 | NPS: 16333 | Nodes: 637
+Depth 42 | NPS: 15925 | Nodes: 637
+Depth 43 | NPS: 15536 | Nodes: 637
+Depth 44 | NPS: 15166 | Nodes: 637
+Depth 45 | NPS: 14813 | Nodes: 637
+Depth 46 | NPS: 14477 | Nodes: 637
+Depth 47 | NPS: 14155 | Nodes: 637
+Depth 48 | NPS: 13847 | Nodes: 637
+Depth 49 | NPS: 13553 | Nodes: 637
+Playing: (play 3 6 3 7)
+Depth 1 | NPS: 1500 | Nodes: 3
+Depth 2 | NPS: 6000 | Nodes: 12
+Depth 3 | NPS: 10500 | Nodes: 21
+Depth 4 | NPS: 19000 | Nodes: 38
+Depth 5 | NPS: 25000 | Nodes: 50
+Depth 6 | NPS: 31500 | Nodes: 63
+Depth 7 | NPS: 31500 | Nodes: 63
+Depth 8 | NPS: 31500 | Nodes: 63
+Depth 9 | NPS: 31500 | Nodes: 63
+Depth 10 | NPS: 21000 | Nodes: 63
+Depth 11 | NPS: 21000 | Nodes: 63
+Depth 12 | NPS: 21000 | Nodes: 63
+Depth 13 | NPS: 21000 | Nodes: 63
+Depth 14 | NPS: 21000 | Nodes: 63
+Depth 15 | NPS: 21000 | Nodes: 63
+Depth 16 | NPS: 21000 | Nodes: 63
+Depth 17 | NPS: 21000 | Nodes: 63
+Depth 18 | NPS: 21000 | Nodes: 63
+Depth 19 | NPS: 21000 | Nodes: 63
+Depth 20 | NPS: 21000 | Nodes: 63
+Depth 21 | NPS: 15750 | Nodes: 63
+Depth 22 | NPS: 15750 | Nodes: 63
+Depth 23 | NPS: 15750 | Nodes: 63
+Depth 24 | NPS: 15750 | Nodes: 63
+Depth 25 | NPS: 15750 | Nodes: 63
+Depth 26 | NPS: 15750 | Nodes: 63
+Depth 27 | NPS: 15750 | Nodes: 63
+Depth 28 | NPS: 12600 | Nodes: 63
+Depth 29 | NPS: 12600 | Nodes: 63
+Depth 30 | NPS: 12600 | Nodes: 63
+Depth 31 | NPS: 12600 | Nodes: 63
+Depth 32 | NPS: 12600 | Nodes: 63
+Depth 33 | NPS: 12600 | Nodes: 63
+Depth 34 | NPS: 12600 | Nodes: 63
+Depth 35 | NPS: 10500 | Nodes: 63
+Depth 36 | NPS: 10500 | Nodes: 63
+Depth 37 | NPS: 10500 | Nodes: 63
+Depth 38 | NPS: 10500 | Nodes: 63
+Depth 39 | NPS: 10500 | Nodes: 63
+Depth 40 | NPS: 10500 | Nodes: 63
+Depth 41 | NPS: 10500 | Nodes: 63
+Depth 42 | NPS: 10500 | Nodes: 63
+Depth 43 | NPS: 10500 | Nodes: 63
+Depth 44 | NPS: 10500 | Nodes: 63
+Depth 45 | NPS: 10500 | Nodes: 63
+Depth 46 | NPS: 10500 | Nodes: 63
+Depth 47 | NPS: 9000 | Nodes: 63
+Depth 48 | NPS: 9000 | Nodes: 63
+Depth 49 | NPS: 9000 | Nodes: 63
+Playing: (play 6 6 7 6)
+Depth 1 | NPS: 1000 | Nodes: 2
+Depth 2 | NPS: 3000 | Nodes: 6
+Depth 3 | NPS: 5500 | Nodes: 11
+Depth 4 | NPS: 8000 | Nodes: 16
+Depth 5 | NPS: 8000 | Nodes: 16
+Depth 6 | NPS: 8000 | Nodes: 16
+Depth 7 | NPS: 8000 | Nodes: 16
+Depth 8 | NPS: 8000 | Nodes: 16
+Depth 9 | NPS: 8000 | Nodes: 16
+Depth 10 | NPS: 8000 | Nodes: 16
+Depth 11 | NPS: 8000 | Nodes: 16
+Depth 12 | NPS: 8000 | Nodes: 16
+Depth 13 | NPS: 8000 | Nodes: 16
+Depth 14 | NPS: 8000 | Nodes: 16
+Depth 15 | NPS: 8000 | Nodes: 16
+Depth 16 | NPS: 8000 | Nodes: 16
+Depth 17 | NPS: 8000 | Nodes: 16
+Depth 18 | NPS: 8000 | Nodes: 16
+Depth 19 | NPS: 8000 | Nodes: 16
+Depth 20 | NPS: 8000 | Nodes: 16
+Depth 21 | NPS: 8000 | Nodes: 16
+Depth 22 | NPS: 8000 | Nodes: 16
+Depth 23 | NPS: 8000 | Nodes: 16
+Depth 24 | NPS: 8000 | Nodes: 16
+Depth 25 | NPS: 8000 | Nodes: 16
+Depth 26 | NPS: 8000 | Nodes: 16
+Depth 27 | NPS: 8000 | Nodes: 16
+Depth 28 | NPS: 8000 | Nodes: 16
+Depth 29 | NPS: 8000 | Nodes: 16
+Depth 30 | NPS: 8000 | Nodes: 16
+Depth 31 | NPS: 8000 | Nodes: 16
+Depth 32 | NPS: 8000 | Nodes: 16
+Depth 33 | NPS: 8000 | Nodes: 16
+Depth 34 | NPS: 8000 | Nodes: 16
+Depth 35 | NPS: 8000 | Nodes: 16
+Depth 36 | NPS: 8000 | Nodes: 16
+Depth 37 | NPS: 8000 | Nodes: 16
+Depth 38 | NPS: 5333 | Nodes: 16
+Depth 39 | NPS: 5333 | Nodes: 16
+Depth 40 | NPS: 5333 | Nodes: 16
+Depth 41 | NPS: 5333 | Nodes: 16
+Depth 42 | NPS: 5333 | Nodes: 16
+Depth 43 | NPS: 5333 | Nodes: 16
+Depth 44 | NPS: 5333 | Nodes: 16
+Depth 45 | NPS: 5333 | Nodes: 16
+Depth 46 | NPS: 5333 | Nodes: 16
+Depth 47 | NPS: 5333 | Nodes: 16
+Depth 48 | NPS: 5333 | Nodes: 16
+Depth 49 | NPS: 5333 | Nodes: 16
+Playing: (play 9 1 10 1)
+Depth 1 | NPS: 666 | Nodes: 2
+Depth 2 | NPS: 1333 | Nodes: 4
+Depth 3 | NPS: 1333 | Nodes: 4
+Depth 4 | NPS: 1333 | Nodes: 4
+Depth 5 | NPS: 1333 | Nodes: 4
+Depth 6 | NPS: 1333 | Nodes: 4
+Depth 7 | NPS: 1333 | Nodes: 4
+Depth 8 | NPS: 1333 | Nodes: 4
+Depth 9 | NPS: 1333 | Nodes: 4
+Depth 10 | NPS: 1333 | Nodes: 4
+Depth 11 | NPS: 1333 | Nodes: 4
+Depth 12 | NPS: 1333 | Nodes: 4
+Depth 13 | NPS: 1333 | Nodes: 4
+Depth 14 | NPS: 1333 | Nodes: 4
+Depth 15 | NPS: 1333 | Nodes: 4
+Depth 16 | NPS: 1333 | Nodes: 4
+Depth 17 | NPS: 1333 | Nodes: 4
+Depth 18 | NPS: 1333 | Nodes: 4
+Depth 19 | NPS: 1333 | Nodes: 4
+Depth 20 | NPS: 1333 | Nodes: 4
+Depth 21 | NPS: 1333 | Nodes: 4
+Depth 22 | NPS: 1333 | Nodes: 4
+Depth 23 | NPS: 1333 | Nodes: 4
+Depth 24 | NPS: 1333 | Nodes: 4
+Depth 25 | NPS: 1333 | Nodes: 4
+Depth 26 | NPS: 1333 | Nodes: 4
+Depth 27 | NPS: 1333 | Nodes: 4
+Depth 28 | NPS: 1333 | Nodes: 4
+Depth 29 | NPS: 1333 | Nodes: 4
+Depth 30 | NPS: 1333 | Nodes: 4
+Depth 31 | NPS: 1333 | Nodes: 4
+Depth 32 | NPS: 1333 | Nodes: 4
+Depth 33 | NPS: 1333 | Nodes: 4
+Depth 34 | NPS: 1333 | Nodes: 4
+Depth 35 | NPS: 1333 | Nodes: 4
+Depth 36 | NPS: 1333 | Nodes: 4
+Depth 37 | NPS: 1333 | Nodes: 4
+Depth 38 | NPS: 1333 | Nodes: 4
+Depth 39 | NPS: 1333 | Nodes: 4
+Depth 40 | NPS: 1333 | Nodes: 4
+Depth 41 | NPS: 1333 | Nodes: 4
+Depth 42 | NPS: 1333 | Nodes: 4
+Depth 43 | NPS: 1333 | Nodes: 4
+Depth 44 | NPS: 1333 | Nodes: 4
+Depth 45 | NPS: 1333 | Nodes: 4
+Depth 46 | NPS: 1333 | Nodes: 4
+Depth 47 | NPS: 1333 | Nodes: 4
+Depth 48 | NPS: 1333 | Nodes: 4
+Depth 49 | NPS: 1333 | Nodes: 4
+Playing: (play 10 1 10 2)
