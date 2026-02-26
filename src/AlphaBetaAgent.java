@@ -8,8 +8,7 @@ public class AlphaBetaAgent implements Agent {
     private long startTime, timeLimit;
     private int nodes;
 
-    // --- PRIMITIVE ARRAY TRANSPOSITION TABLE ---
-    // Size MUST be a power of 2 for the bitwise mask to work. (1 << 21 = 2,097,152 entries)
+    // Transposition Table (TT) for caching evaluations
     private static final int TT_SIZE = 1 << 21; 
     private static final int TT_MASK = TT_SIZE - 1;
     
@@ -20,6 +19,7 @@ public class AlphaBetaAgent implements Agent {
     private PrintWriter logWriter;
     private static class TimeoutException extends RuntimeException {}
 
+    // Initializes the agent for a new match
     public void init(String role, int width, int height, int playclock, int[][] whitePos, int[][] blackPos) {
         this.role = role;
         this.playclock = playclock;
@@ -34,8 +34,8 @@ public class AlphaBetaAgent implements Agent {
         } catch (IOException e) { }
     }
 
+    // Generates the next action based on the opponent's last move
     public String nextAction(int[] lastMove) {
-        // 1. STATE-BASED AUTO-SYNC
         if (lastMove != null && lastMove.length >= 4 && lastMove[0] != -1) {
             int sx = lastMove[0], sy = lastMove[1];
             int pieceAtSource = state.board[sx][sy];
@@ -47,21 +47,19 @@ public class AlphaBetaAgent implements Agent {
             }
         }
 
-        // 2. TRUE PARITY CHECK
         int burnedCount = state.getBurnedCount();
         boolean isWhiteTurn = (burnedCount % 2 == 0);
         boolean myTurn = (role.equals("white") && isWhiteTurn) || (role.equals("black") && !isWhiteTurn);
 
         if (!myTurn) return "noop";
 
-        // 3. SAFE SEARCH ON A CLONE
         QueenBattleState searchState = state.cloneState();
         startTime = System.currentTimeMillis();
+        // Set time limit with a safety margin to avoid timeouts
         timeLimit = (playclock * 1000) - 700; 
         int[] best = null;
         int depth = 1;
         
-        // Clear TT at the start of our turn to prevent stale evaluations
         Arrays.fill(ttKeys, 0L); 
 
         try {
@@ -89,6 +87,7 @@ public class AlphaBetaAgent implements Agent {
         return "noop";
     }
 
+    // Clones the current state for search to avoid mutating the original
     private int[] startNegamax(QueenBattleState s, int depth) {
         List<int[]> moves = s.getLegalMoves(role);
         if (moves.isEmpty()) return null;
@@ -109,6 +108,7 @@ public class AlphaBetaAgent implements Agent {
         return bestMove;
     }
 
+    // Negamax search with alpha-beta pruning and TT lookup
     private int negamax(QueenBattleState s, int depth, int alpha, int beta, boolean isMe) {
         nodes++;
         if (nodes % 100 == 0) checkTime();
@@ -116,9 +116,8 @@ public class AlphaBetaAgent implements Agent {
         int score = s.evaluate(role);
         if (Math.abs(score) >= 10000 || depth <= 0) return isMe ? score : -score;
 
-        // --- PRIMITIVE TT LOOKUP ---
         long hash = s.getHash();
-        int ttIndex = (int)(hash & TT_MASK); // Lightning-fast bitwise modulo
+        int ttIndex = (int)(hash & TT_MASK);
         
         if (ttKeys[ttIndex] == hash && ttDepths[ttIndex] >= depth) {
             return ttValues[ttIndex];
@@ -129,6 +128,7 @@ public class AlphaBetaAgent implements Agent {
         List<int[]> moves = s.getLegalMoves(cur);
         if (moves.isEmpty()) return isMe ? -10000 : 10000;
 
+        // Move ordering using quick heuristic evaluation
         for (int[] m : moves) {
             s.applyMove(m[0], m[1], m[2], m[3], cur);
             int v = -negamax(s, depth - 1, -beta, -alpha, !isMe);
@@ -138,8 +138,7 @@ public class AlphaBetaAgent implements Agent {
             if (alpha >= beta) break;
         }
 
-        // --- PRIMITIVE TT STORE ---
-        // Overwrite scheme: simple, fast, and highly effective for iterative deepening
+        // Store in TT
         ttKeys[ttIndex] = hash;
         ttValues[ttIndex] = bestV;
         ttDepths[ttIndex] = depth;

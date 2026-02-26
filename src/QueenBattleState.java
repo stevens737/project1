@@ -6,11 +6,11 @@ public class QueenBattleState {
     private long currentHash = 0L;
     private static final long[][][] zobristTable = new long[11][11][4];
     
-    // Arrays pre-allocated to completely prevent Garbage Collection pauses
     public int[][] dWhite, dBlack;
     public int[] qArr;
 
     static {
+        // Initialize Zobrist Table with random values
         Random rnd = new Random(42);
         for (int i = 0; i < 11; i++)
             for (int j = 0; j < 11; j++)
@@ -49,6 +49,7 @@ public class QueenBattleState {
         return c;
     }
 
+    // Applies a move to the board and updates the hash
     public void applyMove(int x1, int y1, int x2, int y2, String role) {
         int piece = role.equals("white") ? 1 : 2;
         currentHash ^= zobristTable[x1][y1][piece]; 
@@ -57,6 +58,7 @@ public class QueenBattleState {
         board[x1][y1] = -1; board[x2][y2] = piece;
     }
 
+    // Retracts a move from the board and updates the hash
     public void retractMove(int x1, int y1, int x2, int y2, String role) {
         int piece = role.equals("white") ? 1 : 2;
         currentHash ^= zobristTable[x2][y2][piece];
@@ -75,6 +77,7 @@ public class QueenBattleState {
         return count;
     }
 
+    // Generates all legal moves for the given role (checks for burned and occupied squares)
     public List<int[]> getLegalMoves(String role) {
         List<int[]> moves = new ArrayList<>();
         int p = role.equals("white") ? 1 : 2;
@@ -96,6 +99,7 @@ public class QueenBattleState {
         return moves;
     }
 
+    // Evaluates the board state using territory control and mobility heuristics
     public int evaluate(String role) {
         List<int[]> wMoves = getLegalMoves("white");
         List<int[]> bMoves = getLegalMoves("black");
@@ -109,6 +113,7 @@ public class QueenBattleState {
         return role.equals("white") ? score : -score;
     }
 
+    // BFS to calculate territory control for both players
     private int calculateBFSTerritory() {
         for (int i = 1; i <= width; i++) {
             for (int j = 1; j <= height; j++) {
@@ -133,6 +138,7 @@ public class QueenBattleState {
         return territory; // Positive means White is winning space
     }
 
+    // BFS to fill distance maps for territory evaluation
     private void bfs(int[][] dists, int p) {
         int head = 0, tail = 0;
         for (int i = 1; i <= width; i++) {
@@ -145,6 +151,7 @@ public class QueenBattleState {
             }
         }
         
+        // Directions for queen movement
         int[][] dirs = {{0,1}, {0,-1}, {1,0}, {-1,0}, {1,1}, {1,-1}, {-1,1}, {-1,-1}};
         while (head < tail) {
             int cx = qArr[head++];
@@ -166,6 +173,7 @@ public class QueenBattleState {
         }
     }
 
+    // Quick heuristic evaluation for move ordering (closer to center is better)
     public int quickEvaluateMove(int[] m) {
         int cx = (width + 1) / 2, cy = (height + 1) / 2;
         return 20 - Math.max(Math.abs(m[2] - cx), Math.abs(m[3] - cy));
